@@ -167,7 +167,7 @@ training scripts after AST normalisation, which removes docstrings, comments and
 
 | Package | Files | Size | Largest file | SHA-256 |
 |---|---|---|---|---|
-| `github/` | 179 (177 listed in the manifest + `MANIFEST_sha256.csv` + `RELEASE_NOTES.md`) | 65.1 MB | `results/revision/csv/c07_points_F_vs_1minusT.csv` (18.0 MB); no file over 50 MB | `MANIFEST_sha256.csv`: `59f4ace4c7492f210d217f9a87366c013b63023a646eeda9de9aadce5404f50a` |
+| `github/` | 179 (177 listed in the manifest + `MANIFEST_sha256.csv` + `RELEASE_NOTES.md`) | 65.1 MB | `results/revision/csv/c07_points_F_vs_1minusT.csv` (18.0 MB); no file over 50 MB | every file listed with its SHA-256 in `MANIFEST_sha256.csv` |
 | `zenodo/nsdof_outputs_v1.0.zip` | 898 entries (897 files + manifest) | 3,171,490,511 bytes = 3.17 GB (uncompressed 3.22 GB) | `hsi_outputs_revision` 1.6 GB, `shift/` 0.96 GB, `weights_revision/` 0.31 GB | `3486a59316e14a826124145f08ee8333a4b972080e56ac3c9c23612ec175cc8a` (also in `nsdof_outputs_v1.0.zip.sha256`) |
 
 **Final check in a fresh virtual environment.** System Python 3.12.6, new venv, pinned packages from
