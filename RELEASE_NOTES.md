@@ -233,5 +233,5 @@ are included: without them Table S14 could only be rebuilt by GPU inference.
     `PYTHONHASHSEED=0` for a fixed order.
 12. **Fonts.** The figures were generated on Windows without Liberation Serif (fallback: DejaVu Sans). Their data
     is unchanged, but the typeface differs from the manuscript figures.
-13. **Placeholders.** The GitHub URL in `.zenodo.json` (`related_identifiers`) and the Zenodo DOI in `README.md`
-    must be filled in at publication.
+13. **Zenodo record.** The GitHub URL is in `.zenodo.json`; the reserved DOI 10.5281/zenodo.23726966 is in
+    `README.md`. The record is a draft until the authors publish it on Zenodo.

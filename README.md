@@ -6,7 +6,7 @@ Code, analysis results and figure inputs for the article
 > Representation Have? Theory, and Tests on Hyperspectral Convolutional Networks and Preference Data.*
 
 The stored network outputs and trained weights (about 3 GB) are archived on Zenodo:
-**DOI: 10.5281/zenodo.XXXXXXX** (placeholder until publication). Third-party data is not redistributed;
+**DOI: [10.5281/zenodo.23726966](https://doi.org/10.5281/zenodo.23726966)** (reserved; the link works once the record is published). Third-party data is not redistributed;
 `scripts/download_data.py` fetches it from pinned sources and checks every file against its SHA-256.
 
 ## What is here
