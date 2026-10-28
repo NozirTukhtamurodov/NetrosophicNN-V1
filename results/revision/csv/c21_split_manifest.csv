@@ -1,0 +1,7 @@
+scene,split_seed,file,n_train_px,n_test_px,n_train_blocks,n_test_blocks,sha256
+pavia_u,0,results\revision\splits\pavia_u_split0.npz,6482,29521,63,446,6a507b94f68c86c1e5fe6ac807df5d72174e416f8e517586900e193f5df1eb4a
+pavia_u,1,results\revision\splits\pavia_u_split1.npz,6516,27937,72,442,beeecf2a3e72bb05fda585bfe2abedd900e17f8ecc09a4b4725969ec43b04e70
+pavia_u,2,results\revision\splits\pavia_u_split2.npz,6422,28196,83,426,40c9f51a6ee96e96af2552e33e526a83307806feab67a54ec3905fc476d1ffc5
+salinas,0,results\revision\splits\salinas_split0.npz,8217,34145,47,238,2fefc3c9b99021ff01c56d7dab433067d87dcc52dea9b471520d12ddad727b85
+salinas,1,results\revision\splits\salinas_split1.npz,8127,33425,48,238,c1e0a85be708d05176fbe5a794a182a72f5f7fac291b85bdacb78b1160936fc7
+salinas,2,results\revision\splits\salinas_split2.npz,8206,33581,46,239,2b91f9e65eb10f8b5f0f4369b18384344f62e98e21b603a3d2ec61a6e512ad94

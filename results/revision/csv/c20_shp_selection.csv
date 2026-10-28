@@ -1,0 +1,4 @@
+subset,n_scored,n_length_balanced
+near tie: ratio < 1.5,2893,543
+decisive: ratio >= 3,5595,942
+between: 1.5 <= ratio < 3 (excluded from E4b),6512,1133

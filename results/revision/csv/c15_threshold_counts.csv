@@ -1,0 +1,6 @@
+family,n_contrasts,n_pass_thr_0.01,n_pass_thr_0.02,n_pass_thr_0.03,n_pass_thr_0.05
+CNN,162,38,30,27,19
+ensemble,4,1,1,1,0
+HybridSN,30,3,0,0,0
+"CNN (pooled, q1 values)",18,3,2,2,2
+"HybridSN (pooled, q1 values)",10,0,0,0,0

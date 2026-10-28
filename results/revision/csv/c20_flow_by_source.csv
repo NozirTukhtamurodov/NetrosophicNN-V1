@@ -1,0 +1,7 @@
+source,file,drawn,excluded,scored,length_balanced_le0.25,removed_by_length_filter,retained_share,corrupt_in_scored
+orca_dpo_pairs,train_noisy_orca_big,12000,248,11752,2882,8870,0.2452,3534
+UltraFeedback gap>=4,train_noisy_ultrafeedback_gap4big,10000,850,9150,1498,7652,0.1637,2770
+UltraFeedback gap>=2,train_noisy_ultrafeedback_gap2big,15000,837,14163,3070,11093,0.2168,4237
+Anthropic/hh-rlhf,train_noisy_hh_rlhf_big,15000,20,14980,3888,11092,0.2595,4493
+SHP,train_noisy_shp,15000,0,15000,2618,12382,0.1745,7477
+TOTAL (rows above summed),,67000,1955,65045,13956,51089,,

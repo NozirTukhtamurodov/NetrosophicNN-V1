@@ -1,0 +1,86 @@
+scene,split_seed,model,train_seed,score,n_ood,n_id,auroc
+pavia_u,0,evidential,0,H(alpha/S),1345,28176,0.7362
+pavia_u,0,evidential,0,u=K/S,1345,28176,0.1544
+pavia_u,0,evidential,0,1-b_max,1345,28176,0.7803
+pavia_u,0,evidential,1,H(alpha/S),1345,28176,0.6250
+pavia_u,0,evidential,1,u=K/S,1345,28176,0.5855
+pavia_u,0,evidential,1,1-b_max,1345,28176,0.6253
+pavia_u,0,evidential,2,H(alpha/S),1345,28176,0.7978
+pavia_u,0,evidential,2,u=K/S,1345,28176,0.3784
+pavia_u,0,evidential,2,1-b_max,1345,28176,0.8244
+pavia_u,0,hybrid_evidential,0,H(alpha/S),1345,28176,0.0191
+pavia_u,0,hybrid_evidential,0,u=K/S,1345,28176,0.0191
+pavia_u,0,hybrid_evidential,0,1-b_max,1345,28176,0.0191
+pavia_u,0,hybrid_softmax,0,H(p),1345,28176,0.2244
+pavia_u,0,hybrid_softmax,0,1-p_max,1345,28176,0.2300
+pavia_u,0,nsu,0,-(T-F),1345,28176,0.9548
+pavia_u,0,nsu,0,1-T,1345,28176,0.9527
+pavia_u,0,nsu,0,F,1345,28176,0.9567
+pavia_u,0,nsu,0,H(p~),1345,28176,0.8402
+pavia_u,0,nsu,0,1-p~_max,1345,28176,0.8404
+pavia_u,0,nsu,1,-(T-F),1345,28176,0.9721
+pavia_u,0,nsu,1,1-T,1345,28176,0.9725
+pavia_u,0,nsu,1,F,1345,28176,0.9714
+pavia_u,0,nsu,1,H(p~),1345,28176,0.9732
+pavia_u,0,nsu,1,1-p~_max,1345,28176,0.9730
+pavia_u,0,nsu,2,-(T-F),1345,28176,0.9803
+pavia_u,0,nsu,2,1-T,1345,28176,0.9775
+pavia_u,0,nsu,2,F,1345,28176,0.9827
+pavia_u,0,nsu,2,H(p~),1345,28176,0.9831
+pavia_u,0,nsu,2,1-p~_max,1345,28176,0.9836
+pavia_u,0,softmax,0,H(p),1345,28176,0.7204
+pavia_u,0,softmax,0,1-p_max,1345,28176,0.7330
+pavia_u,0,softmax,0,MC PE,1345,28176,0.8336
+pavia_u,0,softmax,0,MC MI,1345,28176,0.9049
+pavia_u,0,softmax,1,H(p),1345,28176,0.0000
+pavia_u,0,softmax,1,1-p_max,1345,28176,0.0000
+pavia_u,0,softmax,1,MC PE,1345,28176,0.0023
+pavia_u,0,softmax,1,MC MI,1345,28176,0.0083
+pavia_u,0,softmax,2,H(p),1345,28176,0.6894
+pavia_u,0,softmax,2,1-p_max,1345,28176,0.7024
+pavia_u,0,softmax,2,MC PE,1345,28176,0.8216
+pavia_u,0,softmax,2,MC MI,1345,28176,0.8953
+pavia_u,0,ensemble5,0-4,H(mean),1345,28176,0.8275
+pavia_u,0,ensemble5,0-4,MI,1345,28176,0.9254
+pavia_u,0,ensemble5,0-4,1-p_max(mean),1345,28176,0.8304
+salinas,1,evidential,0,H(alpha/S),2811,30614,0.7811
+salinas,1,evidential,0,u=K/S,2811,30614,0.7795
+salinas,1,evidential,0,1-b_max,2811,30614,0.7739
+salinas,1,evidential,1,H(alpha/S),2811,30614,0.7489
+salinas,1,evidential,1,u=K/S,2811,30614,0.7550
+salinas,1,evidential,1,1-b_max,2811,30614,0.7417
+salinas,1,evidential,2,H(alpha/S),2811,30614,0.8003
+salinas,1,evidential,2,u=K/S,2811,30614,0.7921
+salinas,1,evidential,2,1-b_max,2811,30614,0.8024
+salinas,1,hybrid_evidential,0,H(alpha/S),2811,30614,0.5792
+salinas,1,hybrid_evidential,0,u=K/S,2811,30614,0.5800
+salinas,1,hybrid_evidential,0,1-b_max,2811,30614,0.5800
+salinas,1,hybrid_softmax,0,H(p),2811,30614,0.8285
+salinas,1,hybrid_softmax,0,1-p_max,2811,30614,0.8281
+salinas,1,nsu,0,-(T-F),2811,30614,0.8610
+salinas,1,nsu,0,1-T,2811,30614,0.8547
+salinas,1,nsu,0,F,2811,30614,0.8662
+salinas,1,nsu,0,H(p~),2811,30614,0.8402
+salinas,1,nsu,0,1-p~_max,2811,30614,0.8393
+salinas,1,nsu,1,-(T-F),2811,30614,0.8876
+salinas,1,nsu,1,1-T,2811,30614,0.8913
+salinas,1,nsu,1,F,2811,30614,0.8836
+salinas,1,nsu,1,H(p~),2811,30614,0.8466
+salinas,1,nsu,1,1-p~_max,2811,30614,0.8449
+salinas,1,nsu,2,-(T-F),2811,30614,0.9585
+salinas,1,nsu,2,1-T,2811,30614,0.9602
+salinas,1,nsu,2,F,2811,30614,0.9568
+salinas,1,nsu,2,H(p~),2811,30614,0.9254
+salinas,1,nsu,2,1-p~_max,2811,30614,0.9241
+salinas,1,softmax,0,H(p),2811,30614,0.6362
+salinas,1,softmax,0,1-p_max,2811,30614,0.6346
+salinas,1,softmax,0,MC PE,2811,30614,0.6565
+salinas,1,softmax,0,MC MI,2811,30614,0.6741
+salinas,1,softmax,1,H(p),2811,30614,0.7441
+salinas,1,softmax,1,1-p_max,2811,30614,0.7342
+salinas,1,softmax,1,MC PE,2811,30614,0.7528
+salinas,1,softmax,1,MC MI,2811,30614,0.7593
+salinas,1,softmax,2,H(p),2811,30614,0.8680
+salinas,1,softmax,2,1-p_max,2811,30614,0.8514
+salinas,1,softmax,2,MC PE,2811,30614,0.8745
+salinas,1,softmax,2,MC MI,2811,30614,0.8727

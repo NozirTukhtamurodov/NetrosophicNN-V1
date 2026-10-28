@@ -1,0 +1,7 @@
+item,n
+gap>=4 draw: pairs,10000
+gap>=2 draw: pairs,15000
+pairs present in BOTH draws (drawn),6514
+pairs present in BOTH draws (both scored),5967
+unique UltraFeedback pairs drawn (union),18486
+unique UltraFeedback pairs scored (union),17346

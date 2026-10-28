@@ -1,0 +1,13 @@
+file,panel,label,delta,ci_lo,ci_hi
+preference_steps.csv,indeterminacy,"orca, length filter (n = 2,882)",-0.0017,-0.0027,-0.0007
+preference_steps.csv,indeterminacy,"orca, covariate (n = 11,752)",-0.0003,-0.0005,-0.0000
+preference_steps.csv,indeterminacy,"UF gap ≥ 4, length filter (n = 1,498)",-0.0007,-0.0027,0.0014
+preference_steps.csv,indeterminacy,"UF gap ≥ 4, covariate (n = 9,150)",0.0000,-0.0007,0.0007
+preference_steps.csv,indeterminacy,"UF gap ≥ 2, length filter (n = 3,070)",-0.0013,-0.0026,-0.0001
+preference_steps.csv,indeterminacy,"UF gap ≥ 2, covariate (n = 14,163)",0.0002,-0.0010,0.0013
+preference_steps.csv,indeterminacy,"HH-RLHF, length filter (n = 3,888)",-0.0037,-0.0081,0.0005
+preference_steps.csv,indeterminacy,"HH-RLHF, covariate (n = 14,980)",-0.0002,-0.0014,0.0011
+preference_steps.csv,indeterminacy,"SHP near-ties, length filter (n = 1,485)",0.0152,-0.0077,0.0368
+preference_steps.csv,indeterminacy,"SHP near-ties, covariate (n = 8,488)",0.0048,-0.0006,0.0099
+preference_steps.csv,evidence,"SHP near-ties, length filter (n = 1,485)",0.0283,-0.0070,0.0628
+preference_steps.csv,evidence,"SHP near-ties, covariate (n = 8,488)",0.0149,0.0050,0.0245

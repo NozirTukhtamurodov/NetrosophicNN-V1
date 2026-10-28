@@ -1,0 +1,29 @@
+scene,model,kind,best,n_runs,auc_mean,auc_sd,all_mean_aucs
+pavia_u,softmax CNN,single(OOF),H,9,0.7682,0.1242,H=0.7682; p_max=0.7516; p_2=0.7391
+pavia_u,softmax CNN,rung,S2,9,0.7766,0.1164,S1=0.7682; S2=0.7766; S3=0.7748
+pavia_u,MC dropout (softmax CNN),single(OOF),PE,9,0.7717,0.1390,PE=0.7717; MI=0.7459; p_max_mean=0.7637
+pavia_u,MC dropout (softmax CNN),rung,M3,9,0.8112,0.0843,M1=0.7717; M2=0.8002; M3=0.8112
+pavia_u,evidential CNN,single(OOF),b_2,9,0.8074,0.0977,H=0.7800; u=0.6975; b_max=0.7854; b_2=0.8074
+pavia_u,evidential CNN,rung,R3plus,9,0.8039,0.0896,R1=0.7800; R2=0.8012; R3plus=0.8039; R3=0.7820
+pavia_u,neutrosophic NS-U CNN,single(OOF),T,9,0.8515,0.1195,T_minus_F=0.8496; T=0.8515; F=0.8477; H_ptilde=0.7237; p_max_ptilde=0.6996
+pavia_u,neutrosophic NS-U CNN,rung,N2plus,9,0.8612,0.0911,N1=0.8496; N2=0.8592; N2base=0.7310; N2plus=0.8612
+pavia_u,"deep ensemble (5, split 0)",single(OOF),MI,1,0.9122,,H_mean=0.8654; MI=0.9122; p_max_mean=0.8555
+pavia_u,"deep ensemble (5, split 0)",rung,E2,1,0.9000,,E1=0.8654; E2=0.9000; E3=0.8922
+pavia_u,HybridSN softmax,single(OOF),H,3,0.6390,0.0314,H=0.6390; p_max=0.6289; p_2=0.6283
+pavia_u,HybridSN softmax,rung,S2,3,0.6430,0.0310,S1=0.6390; S2=0.6430; S3=0.6426
+pavia_u,HybridSN evidential,single(OOF),b_max,3,0.7522,0.0532,H=0.7522; u=0.7522; b_max=0.7522; b_2=0.5054
+pavia_u,HybridSN evidential,rung,R3plus,3,0.7587,0.0515,R1=0.7522; R2=0.7534; R3plus=0.7587; R3=0.7521
+salinas,softmax CNN,single(OOF),H,9,0.8135,0.0717,H=0.8135; p_max=0.8064; p_2=0.8044
+salinas,softmax CNN,rung,S2,9,0.8137,0.0711,S1=0.8135; S2=0.8137; S3=0.8133
+salinas,MC dropout (softmax CNN),single(OOF),p_max_mean,9,0.8079,0.0776,PE=0.8071; MI=0.7966; p_max_mean=0.8079
+salinas,MC dropout (softmax CNN),rung,M3,9,0.8085,0.0809,M1=0.8071; M2=0.8066; M3=0.8085
+salinas,evidential CNN,single(OOF),b_max,9,0.8478,0.1260,H=0.8476; u=0.8423; b_max=0.8478; b_2=0.6963
+salinas,evidential CNN,rung,R3,9,0.8495,0.1238,R1=0.8476; R2=0.8483; R3plus=0.8493; R3=0.8495
+salinas,neutrosophic NS-U CNN,single(OOF),T,9,0.8377,0.1374,T_minus_F=0.8371; T=0.8377; F=0.8367; H_ptilde=0.7693; p_max_ptilde=0.7436
+salinas,neutrosophic NS-U CNN,rung,N2plus,9,0.8501,0.1265,N1=0.8371; N2=0.8491; N2base=0.7780; N2plus=0.8501
+salinas,"deep ensemble (5, split 0)",single(OOF),H_mean,1,0.8820,,H_mean=0.8820; MI=0.8741; p_max_mean=0.8588
+salinas,"deep ensemble (5, split 0)",rung,E2,1,0.8821,,E1=0.8820; E2=0.8821; E3=0.8751
+salinas,HybridSN softmax,single(OOF),H,3,0.7373,0.0516,H=0.7373; p_max=0.7077; p_2=0.7111
+salinas,HybridSN softmax,rung,S2,3,0.7507,0.0570,S1=0.7373; S2=0.7507; S3=0.7482
+salinas,HybridSN evidential,single(OOF),u,3,0.9162,0.0204,H=0.9160; u=0.9162; b_max=0.9162; b_2=0.5003
+salinas,HybridSN evidential,rung,R3,3,0.9162,0.0204,R1=0.9160; R2=0.9153; R3plus=0.9152; R3=0.9162

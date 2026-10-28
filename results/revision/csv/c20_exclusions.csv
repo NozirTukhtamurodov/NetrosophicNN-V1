@@ -1,0 +1,12 @@
+source,reason,n_pairs
+orca_dpo_pairs,chosen<2 tokens,181
+orca_dpo_pairs,chosen<2 tokens; rejected<2 tokens,1
+orca_dpo_pairs,rejected<2 tokens,66
+UltraFeedback gap>=4,chosen<2 tokens,403
+UltraFeedback gap>=4,chosen<2 tokens; rejected<2 tokens,84
+UltraFeedback gap>=4,rejected<2 tokens,363
+UltraFeedback gap>=2,chosen<2 tokens,397
+UltraFeedback gap>=2,chosen<2 tokens; rejected<2 tokens,100
+UltraFeedback gap>=2,rejected<2 tokens,340
+Anthropic/hh-rlhf,chosen<2 tokens,8
+Anthropic/hh-rlhf,rejected<2 tokens,12

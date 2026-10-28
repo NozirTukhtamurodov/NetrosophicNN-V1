@@ -1,0 +1,225 @@
+family,scene,model,split_seed,train_seed,step,delta_mean,ci_lo,ci_hi,pass_thr_0.01,pass_thr_0.02,pass_thr_0.03,pass_thr_0.05
+CNN,pavia_u,evidential,0,0,R2-R1,+0.065017,+0.053846,+0.075920,yes,yes,yes,yes
+CNN,pavia_u,evidential,0,0,R3plus-R2,+0.010099,+0.005995,+0.014175,yes,no,no,no
+CNN,pavia_u,evidential,0,0,R3-R2,-0.058086,-0.071113,-0.045546,no,no,no,no
+CNN,pavia_u,evidential,0,1,R2-R1,+0.019288,+0.017888,+0.020725,yes,no,no,no
+CNN,pavia_u,evidential,0,1,R3plus-R2,+0.002530,+0.001792,+0.003152,no,no,no,no
+CNN,pavia_u,evidential,0,1,R3-R2,-0.014346,-0.015401,-0.013286,no,no,no,no
+CNN,pavia_u,evidential,0,2,R2-R1,+0.060768,+0.051114,+0.069646,yes,yes,yes,yes
+CNN,pavia_u,evidential,0,2,R3plus-R2,+0.008755,+0.004826,+0.012860,no,no,no,no
+CNN,pavia_u,evidential,0,2,R3-R2,-0.074124,-0.084054,-0.064828,no,no,no,no
+CNN,pavia_u,evidential,1,0,R2-R1,+0.002596,+0.002017,+0.003188,no,no,no,no
+CNN,pavia_u,evidential,1,0,R3plus-R2,-0.001158,-0.002117,-0.000239,no,no,no,no
+CNN,pavia_u,evidential,1,0,R3-R2,-0.002409,-0.002874,-0.001949,no,no,no,no
+CNN,pavia_u,evidential,1,1,R2-R1,+0.004382,+0.003707,+0.005052,no,no,no,no
+CNN,pavia_u,evidential,1,1,R3plus-R2,-0.002656,-0.004723,-0.000766,no,no,no,no
+CNN,pavia_u,evidential,1,1,R3-R2,-0.002670,-0.003129,-0.002216,no,no,no,no
+CNN,pavia_u,evidential,1,2,R2-R1,+0.012141,+0.010959,+0.013278,yes,no,no,no
+CNN,pavia_u,evidential,1,2,R3plus-R2,-0.001085,-0.002322,+0.000081,no,no,no,no
+CNN,pavia_u,evidential,1,2,R3-R2,-0.004439,-0.005128,-0.003690,no,no,no,no
+CNN,pavia_u,evidential,2,0,R2-R1,+0.003849,+0.001365,+0.006170,no,no,no,no
+CNN,pavia_u,evidential,2,0,R3plus-R2,+0.002065,+0.001187,+0.002926,no,no,no,no
+CNN,pavia_u,evidential,2,0,R3-R2,-0.000018,-0.002254,+0.002361,no,no,no,no
+CNN,pavia_u,evidential,2,1,R2-R1,+0.002724,+0.002375,+0.003058,no,no,no,no
+CNN,pavia_u,evidential,2,1,R3plus-R2,-0.002115,-0.004158,-0.000244,no,no,no,no
+CNN,pavia_u,evidential,2,1,R3-R2,-0.003791,-0.004230,-0.003338,no,no,no,no
+CNN,pavia_u,evidential,2,2,R2-R1,+0.020150,+0.017792,+0.022320,yes,yes,no,no
+CNN,pavia_u,evidential,2,2,R3plus-R2,+0.007972,+0.005381,+0.010352,no,no,no,no
+CNN,pavia_u,evidential,2,2,R3-R2,-0.012469,-0.014421,-0.010345,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,0,0,R2-R1,+0.004389,+0.003697,+0.005087,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,0,0,R3plus-R2,+0.015829,+0.014501,+0.017232,yes,no,no,no
+HybridSN,pavia_u,hybrid_evidential,0,0,R3-R2,-0.003753,-0.004339,-0.003123,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,1,0,R2-R1,-0.000448,-0.000952,+0.000056,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,1,0,R3plus-R2,+0.000070,-0.000047,+0.000193,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,1,0,R3-R2,-0.000257,-0.000645,+0.000127,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,2,0,R2-R1,-0.000299,-0.000549,-0.000061,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,2,0,R3plus-R2,-0.000002,-0.000387,+0.000303,no,no,no,no
+HybridSN,pavia_u,hybrid_evidential,2,0,R3-R2,+0.000100,-0.000408,+0.000565,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,0,0,S2-S1,+0.003618,-0.004731,+0.011970,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,0,0,S3-S2,-0.001480,-0.002714,-0.000338,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,1,0,S2-S1,+0.005691,+0.002247,+0.009258,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,1,0,S3-S2,-0.000266,-0.001270,+0.000684,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,2,0,S2-S1,+0.002524,-0.001896,+0.006868,no,no,no,no
+HybridSN,pavia_u,hybrid_softmax,2,0,S3-S2,+0.000591,-0.001939,+0.003068,no,no,no,no
+CNN,pavia_u,nsu,0,0,N2-N1,-0.009896,-0.015684,-0.004417,no,no,no,no
+CNN,pavia_u,nsu,0,0,N2plus-N2base,+0.250239,+0.237357,+0.263545,yes,yes,yes,yes
+CNN,pavia_u,nsu,0,1,N2-N1,+0.000537,+0.000410,+0.000662,no,no,no,no
+CNN,pavia_u,nsu,0,1,N2plus-N2base,+0.051627,+0.044772,+0.058707,yes,yes,yes,yes
+CNN,pavia_u,nsu,0,2,N2-N1,-0.001767,-0.003525,-0.000130,no,no,no,no
+CNN,pavia_u,nsu,0,2,N2plus-N2base,+0.027066,+0.022392,+0.032105,yes,yes,no,no
+CNN,pavia_u,nsu,1,0,N2-N1,+0.001470,+0.001209,+0.001739,no,no,no,no
+CNN,pavia_u,nsu,1,0,N2plus-N2base,+0.115570,+0.107622,+0.123191,yes,yes,yes,yes
+CNN,pavia_u,nsu,1,1,N2-N1,-0.056261,-0.062749,-0.050196,no,no,no,no
+CNN,pavia_u,nsu,1,1,N2plus-N2base,+0.076229,+0.067297,+0.085379,yes,yes,yes,yes
+CNN,pavia_u,nsu,1,2,N2-N1,-0.001036,-0.001631,-0.000453,no,no,no,no
+CNN,pavia_u,nsu,1,2,N2plus-N2base,+0.104084,+0.097078,+0.111252,yes,yes,yes,yes
+CNN,pavia_u,nsu,2,0,N2-N1,+0.161076,+0.153092,+0.168832,yes,yes,yes,yes
+CNN,pavia_u,nsu,2,0,N2plus-N2base,+0.210282,+0.199928,+0.220488,yes,yes,yes,yes
+CNN,pavia_u,nsu,2,1,N2-N1,-0.024388,-0.032591,-0.016206,no,no,no,no
+CNN,pavia_u,nsu,2,1,N2plus-N2base,+0.134695,+0.123920,+0.145821,yes,yes,yes,yes
+CNN,pavia_u,nsu,2,2,N2-N1,+0.016093,+0.013780,+0.018458,yes,no,no,no
+CNN,pavia_u,nsu,2,2,N2plus-N2base,+0.202344,+0.193757,+0.211035,yes,yes,yes,yes
+CNN,pavia_u,softmax,0,0,S2-S1,+0.003259,+0.002378,+0.004153,no,no,no,no
+CNN,pavia_u,softmax,0,0,S3-S2,+0.000957,-0.003402,+0.005163,no,no,no,no
+CNN,pavia_u,softmax,0,0,M2-M1,+0.045439,+0.042784,+0.048124,yes,yes,yes,no
+CNN,pavia_u,softmax,0,0,M3-M2,-0.006499,-0.007994,-0.005229,no,no,no,no
+CNN,pavia_u,softmax,0,1,S2-S1,+0.026626,+0.023387,+0.029856,yes,yes,no,no
+CNN,pavia_u,softmax,0,1,S3-S2,-0.015207,-0.017835,-0.012822,no,no,no,no
+CNN,pavia_u,softmax,0,1,M2-M1,+0.062856,+0.059695,+0.066206,yes,yes,yes,yes
+CNN,pavia_u,softmax,0,1,M3-M2,+0.150241,+0.142565,+0.158121,yes,yes,yes,yes
+CNN,pavia_u,softmax,0,2,S2-S1,+0.004843,+0.003801,+0.005920,no,no,no,no
+CNN,pavia_u,softmax,0,2,S3-S2,+0.009634,+0.008089,+0.011231,no,no,no,no
+CNN,pavia_u,softmax,0,2,M2-M1,+0.058707,+0.053240,+0.063934,yes,yes,yes,yes
+CNN,pavia_u,softmax,0,2,M3-M2,-0.019998,-0.025456,-0.014888,no,no,no,no
+CNN,pavia_u,softmax,1,0,S2-S1,-0.000289,-0.000716,+0.000121,no,no,no,no
+CNN,pavia_u,softmax,1,0,S3-S2,-0.000109,-0.001021,+0.000724,no,no,no,no
+CNN,pavia_u,softmax,1,0,M2-M1,-0.003091,-0.003418,-0.002764,no,no,no,no
+CNN,pavia_u,softmax,1,0,M3-M2,-0.000777,-0.001177,-0.000387,no,no,no,no
+CNN,pavia_u,softmax,1,1,S2-S1,-0.000380,-0.000687,-0.000084,no,no,no,no
+CNN,pavia_u,softmax,1,1,S3-S2,-0.000181,-0.001300,+0.000775,no,no,no,no
+CNN,pavia_u,softmax,1,1,M2-M1,-0.007822,-0.008384,-0.007219,no,no,no,no
+CNN,pavia_u,softmax,1,1,M3-M2,+0.000121,-0.000248,+0.000483,no,no,no,no
+CNN,pavia_u,softmax,1,2,S2-S1,+0.006299,+0.004862,+0.007855,no,no,no,no
+CNN,pavia_u,softmax,1,2,S3-S2,-0.001382,-0.002676,-0.000268,no,no,no,no
+CNN,pavia_u,softmax,1,2,M2-M1,-0.004008,-0.004309,-0.003721,no,no,no,no
+CNN,pavia_u,softmax,1,2,M3-M2,+0.003446,+0.002380,+0.004532,no,no,no,no
+CNN,pavia_u,softmax,2,0,S2-S1,+0.004915,+0.003347,+0.006505,no,no,no,no
+CNN,pavia_u,softmax,2,0,S3-S2,-0.001703,-0.003934,+0.000442,no,no,no,no
+CNN,pavia_u,softmax,2,0,M2-M1,+0.030366,+0.026628,+0.033816,yes,yes,yes,no
+CNN,pavia_u,softmax,2,0,M3-M2,-0.011037,-0.013750,-0.008210,no,no,no,no
+CNN,pavia_u,softmax,2,1,S2-S1,+0.019743,+0.017293,+0.022154,yes,no,no,no
+CNN,pavia_u,softmax,2,1,S3-S2,-0.002493,-0.004241,-0.000714,no,no,no,no
+CNN,pavia_u,softmax,2,1,M2-M1,+0.034029,+0.030980,+0.036873,yes,yes,yes,no
+CNN,pavia_u,softmax,2,1,M3-M2,-0.009672,-0.012539,-0.006710,no,no,no,no
+CNN,pavia_u,softmax,2,2,S2-S1,+0.010683,+0.009307,+0.012037,yes,no,no,no
+CNN,pavia_u,softmax,2,2,S3-S2,-0.005584,-0.007215,-0.004109,no,no,no,no
+CNN,pavia_u,softmax,2,2,M2-M1,+0.040954,+0.036181,+0.045572,yes,yes,yes,no
+CNN,pavia_u,softmax,2,2,M3-M2,-0.006875,-0.009456,-0.004220,no,no,no,no
+CNN,salinas,evidential,0,0,R2-R1,+0.001022,+0.000710,+0.001345,no,no,no,no
+CNN,salinas,evidential,0,0,R3plus-R2,-0.000039,-0.000097,+0.000019,no,no,no,no
+CNN,salinas,evidential,0,0,R3-R2,-0.000986,-0.001285,-0.000681,no,no,no,no
+CNN,salinas,evidential,0,1,R2-R1,-0.000274,-0.000328,-0.000217,no,no,no,no
+CNN,salinas,evidential,0,1,R3plus-R2,+0.001676,+0.001440,+0.001919,no,no,no,no
+CNN,salinas,evidential,0,1,R3-R2,+0.001790,+0.001526,+0.002060,no,no,no,no
+CNN,salinas,evidential,0,2,R2-R1,-0.000702,-0.000830,-0.000583,no,no,no,no
+CNN,salinas,evidential,0,2,R3plus-R2,-0.000035,-0.000093,+0.000022,no,no,no,no
+CNN,salinas,evidential,0,2,R3-R2,+0.001431,+0.001194,+0.001674,no,no,no,no
+CNN,salinas,evidential,1,0,R2-R1,+0.000012,-0.000077,+0.000101,no,no,no,no
+CNN,salinas,evidential,1,0,R3plus-R2,-0.000565,-0.000999,-0.000119,no,no,no,no
+CNN,salinas,evidential,1,0,R3-R2,-0.000956,-0.001186,-0.000727,no,no,no,no
+CNN,salinas,evidential,1,1,R2-R1,+0.000113,-0.000430,+0.000645,no,no,no,no
+CNN,salinas,evidential,1,1,R3plus-R2,-0.000331,-0.000404,-0.000258,no,no,no,no
+CNN,salinas,evidential,1,1,R3-R2,+0.000157,+0.000103,+0.000214,no,no,no,no
+CNN,salinas,evidential,1,2,R2-R1,-0.000160,-0.000252,-0.000069,no,no,no,no
+CNN,salinas,evidential,1,2,R3plus-R2,-0.001709,-0.002087,-0.001332,no,no,no,no
+CNN,salinas,evidential,1,2,R3-R2,-0.000452,-0.000599,-0.000307,no,no,no,no
+CNN,salinas,evidential,2,0,R2-R1,-0.000516,-0.000604,-0.000432,no,no,no,no
+CNN,salinas,evidential,2,0,R3plus-R2,+0.002078,+0.001655,+0.002545,no,no,no,no
+CNN,salinas,evidential,2,0,R3-R2,+0.002260,+0.001856,+0.002701,no,no,no,no
+CNN,salinas,evidential,2,1,R2-R1,+0.002434,+0.000707,+0.003824,no,no,no,no
+CNN,salinas,evidential,2,1,R3plus-R2,+0.001107,-0.000088,+0.002671,no,no,no,no
+CNN,salinas,evidential,2,1,R3-R2,+0.000883,-0.000338,+0.002508,no,no,no,no
+CNN,salinas,evidential,2,2,R2-R1,+0.004614,-0.000252,+0.009312,no,no,no,no
+CNN,salinas,evidential,2,2,R3plus-R2,+0.006902,+0.002401,+0.011593,no,no,no,no
+CNN,salinas,evidential,2,2,R3-R2,+0.006524,+0.002093,+0.011281,no,no,no,no
+HybridSN,salinas,hybrid_evidential,0,0,R2-R1,-0.000384,-0.000659,-0.000161,no,no,no,no
+HybridSN,salinas,hybrid_evidential,0,0,R3plus-R2,-0.000203,-0.000448,-0.000024,no,no,no,no
+HybridSN,salinas,hybrid_evidential,0,0,R3-R2,+0.000438,+0.000179,+0.000738,no,no,no,no
+HybridSN,salinas,hybrid_evidential,1,0,R2-R1,+0.000367,+0.000272,+0.000469,no,no,no,no
+HybridSN,salinas,hybrid_evidential,1,0,R3plus-R2,-0.000058,-0.000097,-0.000024,no,no,no,no
+HybridSN,salinas,hybrid_evidential,1,0,R3-R2,+0.000164,+0.000045,+0.000286,no,no,no,no
+HybridSN,salinas,hybrid_evidential,2,0,R2-R1,-0.002199,-0.002692,-0.001752,no,no,no,no
+HybridSN,salinas,hybrid_evidential,2,0,R3plus-R2,-0.000109,-0.000318,+0.000007,no,no,no,no
+HybridSN,salinas,hybrid_evidential,2,0,R3-R2,+0.001977,+0.001429,+0.002575,no,no,no,no
+HybridSN,salinas,hybrid_softmax,0,0,S2-S1,+0.019491,+0.013277,+0.025855,yes,no,no,no
+HybridSN,salinas,hybrid_softmax,0,0,S3-S2,-0.008417,-0.012805,-0.004097,no,no,no,no
+HybridSN,salinas,hybrid_softmax,1,0,S2-S1,+0.013817,+0.012036,+0.015572,yes,no,no,no
+HybridSN,salinas,hybrid_softmax,1,0,S3-S2,+0.000607,-0.001396,+0.002680,no,no,no,no
+HybridSN,salinas,hybrid_softmax,2,0,S2-S1,+0.007047,+0.001830,+0.012221,no,no,no,no
+HybridSN,salinas,hybrid_softmax,2,0,S3-S2,+0.000342,-0.002306,+0.003012,no,no,no,no
+CNN,salinas,nsu,0,0,N2-N1,-0.001698,-0.003246,-0.000243,no,no,no,no
+CNN,salinas,nsu,0,0,N2plus-N2base,+0.097245,+0.086089,+0.108690,yes,yes,yes,yes
+CNN,salinas,nsu,0,1,N2-N1,+0.015017,+0.012787,+0.017339,yes,no,no,no
+CNN,salinas,nsu,0,1,N2plus-N2base,+0.127031,+0.114008,+0.140253,yes,yes,yes,yes
+CNN,salinas,nsu,0,2,N2-N1,+0.006186,+0.004826,+0.007692,no,no,no,no
+CNN,salinas,nsu,0,2,N2plus-N2base,+0.080791,+0.070583,+0.090946,yes,yes,yes,yes
+CNN,salinas,nsu,1,0,N2-N1,+0.001061,+0.000914,+0.001217,no,no,no,no
+CNN,salinas,nsu,1,0,N2plus-N2base,+0.127176,+0.121108,+0.133266,yes,yes,yes,yes
+CNN,salinas,nsu,1,1,N2-N1,+0.006605,+0.005776,+0.007470,no,no,no,no
+CNN,salinas,nsu,1,1,N2plus-N2base,+0.143944,+0.137568,+0.150341,yes,yes,yes,yes
+CNN,salinas,nsu,1,2,N2-N1,-0.000868,-0.001254,-0.000495,no,no,no,no
+CNN,salinas,nsu,1,2,N2plus-N2base,+0.045921,+0.042193,+0.049533,yes,yes,yes,no
+CNN,salinas,nsu,2,0,N2-N1,+0.000670,+0.000243,+0.001076,no,no,no,no
+CNN,salinas,nsu,2,0,N2plus-N2base,-0.022329,-0.033813,-0.010832,no,no,no,no
+CNN,salinas,nsu,2,1,N2-N1,+0.045581,+0.040255,+0.050721,yes,yes,yes,no
+CNN,salinas,nsu,2,1,N2plus-N2base,+0.033030,+0.023847,+0.042533,yes,yes,yes,no
+CNN,salinas,nsu,2,2,N2-N1,+0.034946,+0.032050,+0.037899,yes,yes,yes,no
+CNN,salinas,nsu,2,2,N2plus-N2base,+0.017318,+0.008079,+0.026199,yes,no,no,no
+CNN,salinas,softmax,0,0,S2-S1,-0.000870,-0.004112,+0.002237,no,no,no,no
+CNN,salinas,softmax,0,0,S3-S2,-0.003257,-0.006930,+0.000510,no,no,no,no
+CNN,salinas,softmax,0,0,M2-M1,-0.001505,-0.002280,-0.000711,no,no,no,no
+CNN,salinas,softmax,0,0,M3-M2,-0.000140,-0.001194,+0.000909,no,no,no,no
+CNN,salinas,softmax,0,1,S2-S1,-0.001153,-0.001873,-0.000469,no,no,no,no
+CNN,salinas,softmax,0,1,S3-S2,+0.000368,-0.001199,+0.001991,no,no,no,no
+CNN,salinas,softmax,0,1,M2-M1,+0.000423,+0.000011,+0.000880,no,no,no,no
+CNN,salinas,softmax,0,1,M3-M2,-0.000619,-0.001001,-0.000274,no,no,no,no
+CNN,salinas,softmax,0,2,S2-S1,-0.002045,-0.003150,-0.001017,no,no,no,no
+CNN,salinas,softmax,0,2,S3-S2,+0.004953,+0.000723,+0.008864,no,no,no,no
+CNN,salinas,softmax,0,2,M2-M1,-0.000073,-0.000561,+0.000420,no,no,no,no
+CNN,salinas,softmax,0,2,M3-M2,-0.002240,-0.003562,-0.000971,no,no,no,no
+CNN,salinas,softmax,1,0,S2-S1,-0.000388,-0.001002,+0.000229,no,no,no,no
+CNN,salinas,softmax,1,0,S3-S2,-0.000178,-0.000598,+0.000243,no,no,no,no
+CNN,salinas,softmax,1,0,M2-M1,-0.000490,-0.000703,-0.000270,no,no,no,no
+CNN,salinas,softmax,1,0,M3-M2,+0.000541,-0.000092,+0.001168,no,no,no,no
+CNN,salinas,softmax,1,1,S2-S1,+0.004776,+0.004160,+0.005460,no,no,no,no
+CNN,salinas,softmax,1,1,S3-S2,+0.001150,+0.000235,+0.002038,no,no,no,no
+CNN,salinas,softmax,1,1,M2-M1,+0.000158,+0.000001,+0.000315,no,no,no,no
+CNN,salinas,softmax,1,1,M3-M2,-0.001249,-0.001707,-0.000796,no,no,no,no
+CNN,salinas,softmax,1,2,S2-S1,-0.001059,-0.001385,-0.000742,no,no,no,no
+CNN,salinas,softmax,1,2,S3-S2,+0.000036,-0.000355,+0.000430,no,no,no,no
+CNN,salinas,softmax,1,2,M2-M1,-0.000182,-0.000254,-0.000109,no,no,no,no
+CNN,salinas,softmax,1,2,M3-M2,+0.000038,+0.000025,+0.000052,no,no,no,no
+CNN,salinas,softmax,2,0,S2-S1,+0.002281,+0.000973,+0.003621,no,no,no,no
+CNN,salinas,softmax,2,0,S3-S2,-0.005652,-0.009476,-0.001785,no,no,no,no
+CNN,salinas,softmax,2,0,M2-M1,+0.000119,-0.000006,+0.000247,no,no,no,no
+CNN,salinas,softmax,2,0,M3-M2,+0.007420,+0.005764,+0.009032,no,no,no,no
+CNN,salinas,softmax,2,1,S2-S1,-0.000784,-0.002725,+0.001059,no,no,no,no
+CNN,salinas,softmax,2,1,S3-S2,+0.001469,-0.003565,+0.006522,no,no,no,no
+CNN,salinas,softmax,2,1,M2-M1,-0.001674,-0.001973,-0.001378,no,no,no,no
+CNN,salinas,softmax,2,1,M3-M2,+0.004329,+0.003664,+0.005001,no,no,no,no
+CNN,salinas,softmax,2,2,S2-S1,+0.001045,-0.000251,+0.002324,no,no,no,no
+CNN,salinas,softmax,2,2,S3-S2,-0.002270,-0.005014,+0.000277,no,no,no,no
+CNN,salinas,softmax,2,2,M2-M1,-0.000853,-0.001118,-0.000579,no,no,no,no
+CNN,salinas,softmax,2,2,M3-M2,+0.008588,+0.006439,+0.010767,no,no,no,no
+ensemble,pavia_u,ensemble5,0,0-4,E2-E1,+0.034606,+0.032235,+0.036970,yes,yes,yes,no
+ensemble,pavia_u,ensemble5,0,0-4,E3-E2,-0.007829,-0.009835,-0.005822,no,no,no,no
+ensemble,salinas,ensemble5,0,0-4,E2-E1,+0.000070,-0.000513,+0.000644,no,no,no,no
+ensemble,salinas,ensemble5,0,0-4,E3-E2,-0.007008,-0.009551,-0.004593,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,evidential,pooled,all(9),R2-R1,+0.0156,+0.0149,+0.0163,yes,no,no,no
+"CNN (pooled, q1 values)",pavia_u,evidential,pooled,all(9),R3plus-R2,-0.0019,-0.0025,-0.0014,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,evidential,pooled,all(9),R3-R2,-0.0030,-0.0035,-0.0025,no,no,no,no
+"HybridSN (pooled, q1 values)",pavia_u,hybrid_evidential,pooled,all(3),R2-R1,+0.0000,-0.0001,+0.0002,no,no,no,no
+"HybridSN (pooled, q1 values)",pavia_u,hybrid_evidential,pooled,all(3),R3plus-R2,-0.0000,-0.0001,+0.0000,no,no,no,no
+"HybridSN (pooled, q1 values)",pavia_u,hybrid_evidential,pooled,all(3),R3-R2,+0.0001,-0.0000,+0.0002,no,no,no,no
+"HybridSN (pooled, q1 values)",pavia_u,hybrid_softmax,pooled,all(3),S2-S1,+0.0031,+0.0008,+0.0053,no,no,no,no
+"HybridSN (pooled, q1 values)",pavia_u,hybrid_softmax,pooled,all(3),S3-S2,-0.0005,-0.0019,+0.0010,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,nsu,pooled,all(9),N2-N1,-0.0061,-0.0063,-0.0059,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,nsu,pooled,all(9),N2plus-N2base,+0.0812,+0.0783,+0.0841,yes,yes,yes,yes
+"CNN (pooled, q1 values)",pavia_u,softmax,pooled,all(9),S2-S1,-0.0003,-0.0004,-0.0002,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,softmax,pooled,all(9),S3-S2,-0.0006,-0.0009,-0.0003,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,softmax,pooled,all(9),M2-M1,-0.0087,-0.0090,-0.0084,no,no,no,no
+"CNN (pooled, q1 values)",pavia_u,softmax,pooled,all(9),M3-M2,+0.0020,+0.0019,+0.0021,no,no,no,no
+"CNN (pooled, q1 values)",salinas,evidential,pooled,all(9),R2-R1,+0.0006,+0.0006,+0.0007,no,no,no,no
+"CNN (pooled, q1 values)",salinas,evidential,pooled,all(9),R3plus-R2,+0.0001,+0.0001,+0.0001,no,no,no,no
+"CNN (pooled, q1 values)",salinas,evidential,pooled,all(9),R3-R2,+0.0001,+0.0001,+0.0002,no,no,no,no
+"HybridSN (pooled, q1 values)",salinas,hybrid_evidential,pooled,all(3),R2-R1,-0.0029,-0.0033,-0.0026,no,no,no,no
+"HybridSN (pooled, q1 values)",salinas,hybrid_evidential,pooled,all(3),R3plus-R2,-0.0001,-0.0001,-0.0000,no,no,no,no
+"HybridSN (pooled, q1 values)",salinas,hybrid_evidential,pooled,all(3),R3-R2,+0.0033,+0.0029,+0.0038,no,no,no,no
+"HybridSN (pooled, q1 values)",salinas,hybrid_softmax,pooled,all(3),S2-S1,+0.0015,-0.0013,+0.0043,no,no,no,no
+"HybridSN (pooled, q1 values)",salinas,hybrid_softmax,pooled,all(3),S3-S2,+0.0042,+0.0021,+0.0063,no,no,no,no
+"CNN (pooled, q1 values)",salinas,nsu,pooled,all(9),N2-N1,+0.0004,+0.0003,+0.0005,no,no,no,no
+"CNN (pooled, q1 values)",salinas,nsu,pooled,all(9),N2plus-N2base,+0.0513,+0.0487,+0.0540,yes,yes,yes,yes
+"CNN (pooled, q1 values)",salinas,softmax,pooled,all(9),S2-S1,+0.0000,-0.0001,+0.0001,no,no,no,no
+"CNN (pooled, q1 values)",salinas,softmax,pooled,all(9),S3-S2,+0.0000,-0.0003,+0.0004,no,no,no,no
+"CNN (pooled, q1 values)",salinas,softmax,pooled,all(9),M2-M1,-0.0000,-0.0000,+0.0000,no,no,no,no
+"CNN (pooled, q1 values)",salinas,softmax,pooled,all(9),M3-M2,+0.0007,+0.0006,+0.0008,no,no,no,no

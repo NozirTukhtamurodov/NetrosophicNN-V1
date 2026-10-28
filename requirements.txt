@@ -1,0 +1,21 @@
+# Versions used for every result in the paper (Python 3.12.6, Windows 11, CUDA 13.2).
+# PyTorch: install the CUDA build from https://pytorch.org first (torch 2.13.0+cu132,
+# torchvision 0.28.0+cu132); the CPU build is enough for every analysis and for the simulation.
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.0
+pandas==3.0.5
+matplotlib==3.11.1
+torch==2.13.0
+torchvision==0.28.0
+transformers==5.16.1
+tokenizers==0.23.1
+safetensors==0.8.0
+accelerate==1.14.0
+datasets==5.0.1
+huggingface_hub==1.29.0
+pillow==12.3.0
+# development
+pytest==9.1.1
+ruff==0.16.5
+vulture==2.16

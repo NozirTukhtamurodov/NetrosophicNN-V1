@@ -1,0 +1,66 @@
+{
+  "pavia_u_s0": {
+    "train": 6482,
+    "test": 29521,
+    "err": 2261,
+    "oa": 0.9234,
+    "aa": 0.8214,
+    "kappa": 0.8961
+  },
+  "pavia_u_s1": {
+    "train": 6516,
+    "test": 27937,
+    "err": 3911,
+    "oa": 0.86,
+    "aa": 0.8846,
+    "kappa": 0.821
+  },
+  "pavia_u_s2": {
+    "train": 6422,
+    "test": 28196,
+    "err": 4961,
+    "oa": 0.8241,
+    "aa": 0.8487,
+    "kappa": 0.7639
+  },
+  "pavia_u_pooled": {
+    "test": 85654,
+    "err": 11133,
+    "oa": 0.87,
+    "aa": 0.8291,
+    "kappa": 0.8277,
+    "mean_oa_over_splits": 0.8692
+  },
+  "salinas_s0": {
+    "train": 8217,
+    "test": 34145,
+    "err": 4531,
+    "oa": 0.8673,
+    "aa": 0.8156,
+    "kappa": 0.8519
+  },
+  "salinas_s1": {
+    "train": 8127,
+    "test": 33425,
+    "err": 6328,
+    "oa": 0.8107,
+    "aa": 0.7841,
+    "kappa": 0.7888
+  },
+  "salinas_s2": {
+    "train": 8206,
+    "test": 33581,
+    "err": 2712,
+    "oa": 0.9192,
+    "aa": 0.9109,
+    "kappa": 0.9099
+  },
+  "salinas_pooled": {
+    "test": 101151,
+    "err": 13571,
+    "oa": 0.8658,
+    "aa": 0.8028,
+    "kappa": 0.8503,
+    "mean_oa_over_splits": 0.8657
+  }
+}

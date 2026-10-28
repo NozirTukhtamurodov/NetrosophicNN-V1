@@ -1,0 +1,20 @@
+Model,Step,Adds,Type,Row source,Pavia University: mean (SD),Pavia University: pass thr 0.01,Pavia University: pass thr 0.02,Pavia University: pass thr 0.03,Pavia University: pass thr 0.05,Salinas: mean (SD),Salinas: pass thr 0.01,Salinas: pass thr 0.02,Salinas: pass thr 0.03,Salinas: pass thr 0.05
+Softmax,S2 − S1,p_max,nested,Table 4,+0.008 (0.009),3/9,1/9,0/9,0/9,+0.000 (0.002),0/9,0/9,0/9,0/9
+Softmax,S3 − S2,p_(2),nested,Table 4,-0.002 (0.007),0/9,0/9,0/9,0/9,-0.000 (0.003),0/9,0/9,0/9,0/9
+MC dropout,M2 − M1,MI,nested,Table 4,+0.029 (0.027),6/9,6/9,6/9,2/9,-0.000 (0.001),0/9,0/9,0/9,0/9
+MC dropout,M3 − M2,p_max,nested,Table 4,+0.011 (0.053),1/9,1/9,1/9,1/9,+0.002 (0.004),0/9,0/9,0/9,0/9
+Ensemble,E2 − E1,MI,nested,Table 4,+0.035,1/1,1/1,1/1,0/1,+0.000,0/1,0/1,0/1,0/1
+Ensemble,E3 − E2,p_max,nested,Table 4,-0.008,0/1,0/1,0/1,0/1,-0.007,0/1,0/1,0/1,0/1
+Evidential,R2 − R1,u,nested,Table 4,+0.021 (0.025),5/9,3/9,2/9,2/9,+0.001 (0.002),0/9,0/9,0/9,0/9
+Evidential,R3+ − R2,"(b_max, b_(2))","nested, 2-D (combined increment)",Table 4,+0.003 (0.005),1/9,0/9,0/9,0/9,+0.001 (0.003),0/9,0/9,0/9,0/9
+Evidential,R3 − R2,triple vs pair,head-to-head,Table 4,-0.019 (0.027),0/9,0/9,0/9,0/9,+0.001 (0.002),0/9,0/9,0/9,0/9
+NS-U,N2 − N1,F given T − F,nested,Table 4,+0.010 (0.060),2/9,1/9,1/9,1/9,+0.012 (0.017),3/9,2/9,2/9,0/9
+NS-U,N2+ − N2base,"(T, F)","nested, 2-D (combined increment)",Table 4,+0.130 (0.076),9/9,9/9,8/9,8/9,+0.072 (0.057),8/9,7/9,7/9,5/9
+Evidential,"(H,u,b_max) − R2",b_max,"nested, 1-D","revision, post hoc",+0.002 (0.006),2/9,0/9,0/9,0/9,+0.001 (0.002),0/9,0/9,0/9,0/9
+Evidential,"R3+ − (H,u,b_max)",b_(2) given b_max,"nested, 1-D","revision, post hoc",+0.001 (0.001),0/9,0/9,0/9,0/9,+0.000 (0.000),0/9,0/9,0/9,0/9
+Evidential,"(H,u,b_(2)) − R2",b_(2),"nested, 1-D","revision, post hoc",+0.002 (0.005),1/9,0/9,0/9,0/9,+0.001 (0.002),0/9,0/9,0/9,0/9
+Evidential,BF − R2,"binary-frame triple (b_max, 1−u−b_max, u) vs (H,u)",head-to-head,"revision, post hoc",-0.020 (0.028),0/9,0/9,0/9,0/9,+0.001 (0.002),0/9,0/9,0/9,0/9
+Evidential,"BF − (b_max,u)",b_other = 1−u−b_max,"nested, affine-dependent","revision, post hoc",-0.000 (0.000),0/9,0/9,0/9,0/9,+0.000 (0.000),0/9,0/9,0/9,0/9
+NS-U,N2base+T − N2base,T,"nested, 1-D","revision, post hoc",+0.121 (0.075),9/9,9/9,8/9,7/9,+0.062 (0.063),6/9,6/9,6/9,5/9
+NS-U,N2+ − (N2base+T),F given T,"nested, 1-D","revision, post hoc",+0.009 (0.062),2/9,1/9,1/9,1/9,+0.010 (0.017),3/9,2/9,2/9,0/9
+NS-U,N2base+F − N2base,F,"nested, 1-D","revision, post hoc",+0.117 (0.079),9/9,9/9,7/9,7/9,+0.061 (0.065),6/9,6/9,6/9,5/9

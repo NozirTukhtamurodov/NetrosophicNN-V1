@@ -1,0 +1,1 @@
+steps matched 196/196; max abs difference in delta mean / CI bounds = 5.00e-05 (q1 values are rounded to 4 decimals)

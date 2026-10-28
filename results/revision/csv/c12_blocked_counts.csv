@@ -1,0 +1,4 @@
+,n,orig pass,origcv+blockboot16 pass,blockcv16 pass,blockcv32 pass,verdict changed vs orig (any)
+CNN,162,27,25,26,24,20
+ensemble,4,1,1,0,1,1
+HybridSN,30,0,0,0,0,0

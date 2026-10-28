@@ -1,0 +1,20 @@
+Model,Step,Adds,Type,Row source,Pavia University split 0: all classes (same runs),Pavia University split 0: unseen classes removed,Salinas split 1: all classes (same runs),Salinas split 1: unseen classes removed
+Softmax,S2 − S1,p_max,nested,Table 4,+0.012 (0.013); 0/3,+0.000 (0.000); 0/3,+0.001 (0.003); 0/3,+0.002 (0.002); 0/3
+Softmax,S3 − S2,p_(2),nested,Table 4,-0.002 (0.013); 0/3,-0.001 (0.004); 0/3,+0.000 (0.001); 0/3,+0.002 (0.002); 0/3
+MC dropout,M2 − M1,MI,nested,Table 4,+0.056 (0.009); 3/3,+0.009 (0.007); 0/3,-0.000 (0.000); 0/3,+0.006 (0.004); 0/3
+MC dropout,M3 − M2,p_max,nested,Table 4,+0.041 (0.095); 1/3,-0.000 (0.002); 0/3,-0.000 (0.001); 0/3,+0.003 (0.003); 0/3
+Ensemble,E2 − E1,MI,nested,Table 4,+0.035; 1/1,+0.000; 0/1,n/a,n/a
+Ensemble,E3 − E2,p_max,nested,Table 4,-0.008; 0/1,-0.001; 0/1,n/a,n/a
+Evidential,R2 − R1,u,nested,Table 4,+0.048 (0.025); 2/3,+0.000 (0.000); 0/3,-0.000 (0.000); 0/3,+0.000 (0.000); 0/3
+Evidential,R3+ − R2,"(b_max, b_(2))","nested, 2-D (combined increment)",Table 4,+0.007 (0.004); 0/3,-0.000 (0.000); 0/3,-0.001 (0.001); 0/3,-0.000 (0.000); 0/3
+Evidential,R3 − R2,triple vs pair,head-to-head,Table 4,-0.049 (0.031); 0/3,+0.000 (0.001); 0/3,-0.000 (0.001); 0/3,-0.000 (0.000); 0/3
+NS-U,N2 − N1,F given T − F,nested,Table 4,-0.004 (0.005); 0/3,-0.011 (0.019); 0/3,+0.002 (0.004); 0/3,+0.002 (0.003); 0/3
+NS-U,N2+ − N2base,"(T, F)","nested, 2-D (combined increment)",Table 4,+0.110 (0.122); 2/3,+0.075 (0.023); 3/3,+0.106 (0.052); 3/3,+0.075 (0.015); 3/3
+Evidential,"(H,u,b_max) − R2",b_max,"nested, 1-D","revision, post hoc",+0.008 (0.004); 0/3,-0.000 (0.000); 0/3,-0.001 (0.001); 0/3,-0.000 (0.000); 0/3
+Evidential,"R3+ − (H,u,b_max)",b_(2) given b_max,"nested, 1-D","revision, post hoc",-0.001 (0.001); 0/3,+0.000 (0.000); 0/3,-0.000 (0.000); 0/3,+0.000 (0.000); 0/3
+Evidential,"(H,u,b_(2)) − R2",b_(2),"nested, 1-D","revision, post hoc",+0.007 (0.004); 0/3,-0.000 (0.000); 0/3,-0.001 (0.001); 0/3,-0.000 (0.000); 0/3
+Evidential,BF − R2,"binary-frame triple (b_max, 1−u−b_max, u) vs (H,u)",head-to-head,"revision, post hoc",-0.050 (0.032); 0/3,+0.000 (0.001); 0/3,-0.000 (0.001); 0/3,-0.000 (0.000); 0/3
+Evidential,"BF − (b_max,u)",b_other = 1−u−b_max,"nested, affine-dependent","revision, post hoc",-0.000 (0.000); 0/3,-0.000 (0.000); 0/3,-0.000 (0.000); 0/3,-0.000 (0.000); 0/3
+NS-U,N2base+T − N2base,T,"nested, 1-D","revision, post hoc",+0.112 (0.125); 2/3,+0.088 (0.005); 3/3,+0.103 (0.050); 3/3,+0.073 (0.013); 3/3
+NS-U,N2+ − (N2base+T),F given T,"nested, 1-D","revision, post hoc",-0.002 (0.003); 0/3,-0.013 (0.022); 0/3,+0.002 (0.003); 0/3,+0.001 (0.002); 0/3
+NS-U,N2base+F − N2base,F,"nested, 1-D","revision, post hoc",+0.113 (0.127); 2/3,+0.086 (0.006); 3/3,+0.103 (0.049); 3/3,+0.073 (0.013); 3/3

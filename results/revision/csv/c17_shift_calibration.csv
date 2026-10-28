@@ -1,0 +1,673 @@
+condition,scene,model,output,split_seed,train_seed,accuracy_argmax,nll,brier,ece15
+none,pavia_u,evidential,alpha/S,0,0,0.926459,0.459233,0.148014,0.138650
+none,pavia_u,evidential,alpha/S,0,1,0.923309,0.450841,0.154273,0.132398
+none,pavia_u,evidential,alpha/S,0,2,0.928221,0.447336,0.145277,0.138535
+none,pavia_u,evidential,alpha/S,1,0,0.861904,0.642518,0.241521,0.104955
+none,pavia_u,evidential,alpha/S,1,1,0.854100,0.651081,0.248810,0.093450
+none,pavia_u,evidential,alpha/S,1,2,0.853778,0.651247,0.247748,0.097258
+none,pavia_u,evidential,alpha/S,2,0,0.820648,0.813549,0.317235,0.035850
+none,pavia_u,evidential,alpha/S,2,1,0.823911,0.769538,0.300250,0.065301
+none,pavia_u,evidential,alpha/S,2,2,0.824408,0.772028,0.298513,0.059122
+none,pavia_u,hybrid_evidential,alpha/S,0,0,0.768673,0.873552,0.300900,0.063195
+none,pavia_u,hybrid_evidential,alpha/S,1,0,0.633103,1.305935,0.479317,0.125779
+none,pavia_u,hybrid_evidential,alpha/S,2,0,0.742517,1.172088,0.412337,0.137002
+none,pavia_u,hybrid_softmax,softmax p,0,0,0.901731,1.731899,0.184399,0.088409
+none,pavia_u,hybrid_softmax,softmax p,1,0,0.839317,2.734073,0.312133,0.151664
+none,pavia_u,hybrid_softmax,softmax p,2,0,0.808235,4.152876,0.372975,0.182020
+none,pavia_u,nsu,softmax(zT-zF),0,0,0.926866,1.446954,0.139968,0.067894
+none,pavia_u,nsu,T/sum(T),0,0,0.926290,0.778730,0.133888,0.052061
+none,pavia_u,nsu,softmax(zT-zF),0,1,0.920599,1.307246,0.146740,0.070314
+none,pavia_u,nsu,T/sum(T),0,1,0.920531,0.596222,0.129234,0.047067
+none,pavia_u,nsu,softmax(zT-zF),0,2,0.925849,1.210367,0.133212,0.063671
+none,pavia_u,nsu,T/sum(T),0,2,0.925917,0.591748,0.117318,0.041543
+none,pavia_u,nsu,softmax(zT-zF),1,0,0.867380,1.888087,0.253129,0.122474
+none,pavia_u,nsu,T/sum(T),1,0,0.867523,0.671738,0.233461,0.098186
+none,pavia_u,nsu,softmax(zT-zF),1,1,0.865376,1.818330,0.259060,0.126347
+none,pavia_u,nsu,T/sum(T),1,1,0.865877,0.658963,0.235260,0.097776
+none,pavia_u,nsu,softmax(zT-zF),1,2,0.870530,1.671222,0.243379,0.118180
+none,pavia_u,nsu,T/sum(T),1,2,0.870244,0.653026,0.221488,0.092337
+none,pavia_u,nsu,softmax(zT-zF),2,0,0.822138,3.986534,0.350896,0.174452
+none,pavia_u,nsu,T/sum(T),2,0,0.822493,1.102378,0.338060,0.161316
+none,pavia_u,nsu,softmax(zT-zF),2,1,0.828096,3.510374,0.338500,0.167421
+none,pavia_u,nsu,T/sum(T),2,1,0.828274,1.001188,0.326063,0.154237
+none,pavia_u,nsu,softmax(zT-zF),2,2,0.829337,3.348107,0.335967,0.166738
+none,pavia_u,nsu,T/sum(T),2,2,0.829196,1.093737,0.322960,0.152791
+none,pavia_u,softmax,softmax p,0,0,0.927983,0.900870,0.128577,0.051423
+none,pavia_u,softmax,MC dropout mean p,0,0,0.927882,0.782411,0.123162,0.044016
+none,pavia_u,softmax,softmax p,0,1,0.920938,1.394513,0.148266,0.066346
+none,pavia_u,softmax,MC dropout mean p,0,1,0.920972,1.266872,0.146573,0.062685
+none,pavia_u,softmax,softmax p,0,2,0.926933,0.784387,0.135394,0.056377
+none,pavia_u,softmax,MC dropout mean p,0,2,0.926866,0.677631,0.132809,0.051349
+none,pavia_u,softmax,softmax p,0,3,0.925985,0.733503,0.128803,0.052060
+none,pavia_u,softmax,MC dropout mean p,0,3,0.925782,0.661179,0.120251,0.042768
+none,pavia_u,softmax,softmax p,0,4,0.925104,1.320830,0.141383,0.059089
+none,pavia_u,softmax,MC dropout mean p,0,4,0.924562,1.101013,0.140709,0.056593
+none,pavia_u,softmax,softmax p,1,0,0.865411,0.641426,0.231166,0.097700
+none,pavia_u,softmax,MC dropout mean p,1,0,0.865376,0.612008,0.227911,0.091222
+none,pavia_u,softmax,softmax p,1,1,0.858682,0.758747,0.248836,0.108801
+none,pavia_u,softmax,MC dropout mean p,1,1,0.858324,0.719374,0.245537,0.103418
+none,pavia_u,softmax,softmax p,1,2,0.854208,0.772914,0.260378,0.117848
+none,pavia_u,softmax,MC dropout mean p,1,2,0.853814,0.734827,0.256921,0.112641
+none,pavia_u,softmax,softmax p,2,0,0.824443,1.340564,0.335150,0.159041
+none,pavia_u,softmax,MC dropout mean p,2,0,0.824833,1.269392,0.333640,0.155928
+none,pavia_u,softmax,softmax p,2,1,0.828238,1.323594,0.329126,0.157600
+none,pavia_u,softmax,MC dropout mean p,2,1,0.828025,1.247452,0.327440,0.154352
+none,pavia_u,softmax,softmax p,2,2,0.826323,1.239828,0.333042,0.160445
+none,pavia_u,softmax,MC dropout mean p,2,2,0.826039,1.177518,0.331556,0.157168
+none,salinas,evidential,alpha/S,0,0,0.872631,0.665901,0.213100,0.213749
+none,salinas,evidential,alpha/S,0,1,0.877844,0.679715,0.217097,0.232437
+none,salinas,evidential,alpha/S,0,2,0.874476,0.680696,0.218982,0.226556
+none,salinas,evidential,alpha/S,1,0,0.812506,0.860573,0.292635,0.137358
+none,salinas,evidential,alpha/S,1,1,0.826268,0.823942,0.282206,0.139576
+none,salinas,evidential,alpha/S,1,2,0.779088,0.910839,0.307447,0.168856
+none,salinas,evidential,alpha/S,2,0,0.918496,0.584731,0.190074,0.226282
+none,salinas,evidential,alpha/S,2,1,0.930437,0.549815,0.176826,0.224186
+none,salinas,evidential,alpha/S,2,2,0.925523,0.582237,0.189449,0.218231
+none,salinas,hybrid_evidential,alpha/S,0,0,0.419564,1.802261,0.607200,0.022741
+none,salinas,hybrid_evidential,alpha/S,1,0,0.608168,1.501329,0.500097,0.104752
+none,salinas,hybrid_evidential,alpha/S,2,0,0.690510,1.293826,0.427207,0.103839
+none,salinas,hybrid_softmax,softmax p,0,0,0.896705,1.111861,0.191633,0.092142
+none,salinas,hybrid_softmax,softmax p,1,0,0.797636,3.318610,0.384935,0.187844
+none,salinas,hybrid_softmax,softmax p,2,0,0.892439,1.284149,0.205168,0.099174
+none,salinas,nsu,softmax(zT-zF),0,0,0.955133,0.455097,0.082186,0.039491
+none,salinas,nsu,T/sum(T),0,0,0.955103,0.170292,0.071638,0.020690
+none,salinas,nsu,softmax(zT-zF),0,1,0.963772,0.355478,0.065034,0.030686
+none,salinas,nsu,T/sum(T),0,1,0.963889,0.144548,0.057524,0.012936
+none,salinas,nsu,softmax(zT-zF),0,2,0.957856,0.368825,0.076322,0.036177
+none,salinas,nsu,T/sum(T),0,2,0.957944,0.146109,0.065870,0.017346
+none,salinas,nsu,softmax(zT-zF),1,0,0.825939,2.209893,0.322666,0.155899
+none,salinas,nsu,T/sum(T),1,0,0.825879,0.821949,0.277395,0.114100
+none,salinas,nsu,softmax(zT-zF),1,1,0.827794,1.969349,0.306541,0.146123
+none,salinas,nsu,T/sum(T),1,1,0.827674,0.801367,0.266830,0.105812
+none,salinas,nsu,softmax(zT-zF),1,2,0.825191,1.700656,0.310420,0.146924
+none,salinas,nsu,T/sum(T),1,2,0.825191,0.739770,0.260291,0.100829
+none,salinas,nsu,softmax(zT-zF),2,0,0.926774,1.196599,0.141005,0.068578
+none,salinas,nsu,T/sum(T),2,0,0.926595,0.406521,0.128307,0.050511
+none,salinas,nsu,softmax(zT-zF),2,1,0.923082,1.295551,0.148145,0.072615
+none,salinas,nsu,T/sum(T),2,1,0.922933,0.450529,0.135397,0.054888
+none,salinas,nsu,softmax(zT-zF),2,2,0.926834,1.147507,0.138551,0.067530
+none,salinas,nsu,T/sum(T),2,2,0.927042,0.385640,0.124777,0.047580
+none,salinas,softmax,softmax p,0,0,0.954430,0.209895,0.075656,0.025279
+none,salinas,softmax,MC dropout mean p,0,0,0.954283,0.190980,0.074291,0.020676
+none,salinas,softmax,softmax p,0,1,0.956421,0.212531,0.072890,0.024722
+none,salinas,softmax,MC dropout mean p,0,1,0.956568,0.192524,0.071565,0.020082
+none,salinas,softmax,softmax p,0,2,0.954869,0.233541,0.075088,0.025068
+none,salinas,softmax,MC dropout mean p,0,2,0.955191,0.213444,0.074420,0.020884
+none,salinas,softmax,softmax p,0,3,0.957739,0.208235,0.070872,0.024243
+none,salinas,softmax,MC dropout mean p,0,3,0.957388,0.187566,0.070106,0.020706
+none,salinas,softmax,softmax p,0,4,0.949568,0.274185,0.082990,0.024814
+none,salinas,softmax,MC dropout mean p,0,4,0.949246,0.244412,0.082258,0.019583
+none,salinas,softmax,softmax p,1,0,0.845804,1.170761,0.268324,0.107695
+none,salinas,softmax,MC dropout mean p,1,0,0.845236,1.075131,0.265902,0.100703
+none,salinas,softmax,softmax p,1,1,0.830845,1.131972,0.294411,0.132277
+none,salinas,softmax,MC dropout mean p,1,1,0.830217,1.052658,0.288185,0.123575
+none,salinas,softmax,softmax p,1,2,0.840239,0.922271,0.274385,0.121336
+none,salinas,softmax,MC dropout mean p,1,2,0.840209,0.865235,0.265762,0.110779
+none,salinas,softmax,softmax p,2,0,0.934576,0.410323,0.114930,0.047261
+none,salinas,softmax,MC dropout mean p,2,0,0.934576,0.375871,0.113672,0.043319
+none,salinas,softmax,softmax p,2,1,0.931449,0.439315,0.122083,0.054133
+none,salinas,softmax,MC dropout mean p,2,1,0.931509,0.399885,0.120186,0.049917
+none,salinas,softmax,softmax p,2,2,0.933325,0.464574,0.118423,0.050514
+none,salinas,softmax,MC dropout mean p,2,2,0.933266,0.419232,0.116901,0.046252
+noise_0.05,pavia_u,evidential,alpha/S,0,0,0.925849,0.462140,0.149348,0.138716
+noise_0.05,pavia_u,evidential,alpha/S,0,1,0.922326,0.454802,0.156307,0.133452
+noise_0.05,pavia_u,evidential,alpha/S,0,2,0.927272,0.450790,0.146910,0.139077
+noise_0.05,pavia_u,evidential,alpha/S,1,0,0.862118,0.642200,0.241409,0.108352
+noise_0.05,pavia_u,evidential,alpha/S,1,1,0.854601,0.648662,0.247352,0.097175
+noise_0.05,pavia_u,evidential,alpha/S,1,2,0.854959,0.650161,0.247029,0.099996
+noise_0.05,pavia_u,evidential,alpha/S,2,0,0.821216,0.809399,0.316003,0.034669
+noise_0.05,pavia_u,evidential,alpha/S,2,1,0.825826,0.764698,0.298178,0.077723
+noise_0.05,pavia_u,evidential,alpha/S,2,2,0.825401,0.767599,0.297432,0.061032
+noise_0.05,pavia_u,hybrid_evidential,alpha/S,0,0,0.767352,0.876863,0.302375,0.062934
+noise_0.05,pavia_u,hybrid_evidential,alpha/S,1,0,0.631958,1.312761,0.481688,0.125593
+noise_0.05,pavia_u,hybrid_evidential,alpha/S,2,0,0.738048,1.192636,0.419308,0.140269
+noise_0.05,pavia_u,hybrid_softmax,softmax p,0,0,0.900342,1.746350,0.187944,0.089953
+noise_0.05,pavia_u,hybrid_softmax,softmax p,1,0,0.835594,2.757450,0.317445,0.154938
+noise_0.05,pavia_u,hybrid_softmax,softmax p,2,0,0.804795,4.182319,0.377179,0.184751
+noise_0.05,pavia_u,nsu,softmax(zT-zF),0,0,0.925849,1.448987,0.141356,0.068840
+noise_0.05,pavia_u,nsu,T/sum(T),0,0,0.925274,0.779906,0.135080,0.052370
+noise_0.05,pavia_u,nsu,softmax(zT-zF),0,1,0.919684,1.304462,0.148092,0.071016
+noise_0.05,pavia_u,nsu,T/sum(T),0,1,0.919718,0.597237,0.130345,0.046839
+noise_0.05,pavia_u,nsu,softmax(zT-zF),0,2,0.925206,1.212800,0.134333,0.064237
+noise_0.05,pavia_u,nsu,T/sum(T),0,2,0.925274,0.593545,0.118432,0.041454
+noise_0.05,pavia_u,nsu,softmax(zT-zF),1,0,0.867738,1.867520,0.250356,0.121113
+noise_0.05,pavia_u,nsu,T/sum(T),1,0,0.867917,0.671351,0.230636,0.095960
+noise_0.05,pavia_u,nsu,softmax(zT-zF),1,1,0.865626,1.787849,0.257677,0.125410
+noise_0.05,pavia_u,nsu,T/sum(T),1,1,0.865769,0.656644,0.233097,0.096107
+noise_0.05,pavia_u,nsu,softmax(zT-zF),1,2,0.871067,1.662498,0.240855,0.116890
+noise_0.05,pavia_u,nsu,T/sum(T),1,2,0.871103,0.654097,0.219351,0.090664
+noise_0.05,pavia_u,nsu,softmax(zT-zF),2,0,0.822954,3.906504,0.348648,0.173148
+noise_0.05,pavia_u,nsu,T/sum(T),2,0,0.823060,1.088262,0.335475,0.159135
+noise_0.05,pavia_u,nsu,softmax(zT-zF),2,1,0.828806,3.424539,0.336918,0.167048
+noise_0.05,pavia_u,nsu,T/sum(T),2,1,0.829444,0.987284,0.323822,0.152671
+noise_0.05,pavia_u,nsu,softmax(zT-zF),2,2,0.830579,3.261212,0.332763,0.164810
+noise_0.05,pavia_u,nsu,T/sum(T),2,2,0.830295,1.080202,0.320352,0.150125
+noise_0.05,pavia_u,softmax,softmax p,0,0,0.927848,0.902577,0.129516,0.051263
+noise_0.05,pavia_u,softmax,MC dropout mean p,0,0,0.927543,0.784261,0.124116,0.043900
+noise_0.05,pavia_u,softmax,softmax p,0,1,0.919786,1.396452,0.149615,0.066189
+noise_0.05,pavia_u,softmax,MC dropout mean p,0,1,0.920057,1.269227,0.147942,0.062320
+noise_0.05,pavia_u,softmax,softmax p,0,2,0.926391,0.787056,0.136642,0.056387
+noise_0.05,pavia_u,softmax,MC dropout mean p,0,2,0.926324,0.680271,0.134095,0.051488
+noise_0.05,pavia_u,softmax,softmax p,0,3,0.925545,0.734795,0.129659,0.052289
+noise_0.05,pavia_u,softmax,MC dropout mean p,0,3,0.925206,0.662539,0.121076,0.043006
+noise_0.05,pavia_u,softmax,softmax p,0,4,0.924190,1.324386,0.143287,0.059739
+noise_0.05,pavia_u,softmax,MC dropout mean p,0,4,0.923851,1.104182,0.142589,0.058027
+noise_0.05,pavia_u,softmax,softmax p,1,0,0.866986,0.638537,0.228025,0.094869
+noise_0.05,pavia_u,softmax,MC dropout mean p,1,0,0.866628,0.609465,0.224875,0.088334
+noise_0.05,pavia_u,softmax,softmax p,1,1,0.857680,0.755708,0.248601,0.109022
+noise_0.05,pavia_u,softmax,MC dropout mean p,1,1,0.857501,0.716291,0.245253,0.103717
+noise_0.05,pavia_u,softmax,softmax p,1,2,0.854458,0.767456,0.258851,0.116332
+noise_0.05,pavia_u,softmax,MC dropout mean p,1,2,0.854351,0.729739,0.255320,0.110862
+noise_0.05,pavia_u,softmax,softmax p,2,0,0.826819,1.316713,0.331387,0.156151
+noise_0.05,pavia_u,softmax,MC dropout mean p,2,0,0.826642,1.248153,0.330042,0.152916
+noise_0.05,pavia_u,softmax,softmax p,2,1,0.829621,1.299697,0.325554,0.154679
+noise_0.05,pavia_u,softmax,MC dropout mean p,2,1,0.829621,1.226135,0.323841,0.151640
+noise_0.05,pavia_u,softmax,softmax p,2,2,0.827564,1.216635,0.330237,0.158528
+noise_0.05,pavia_u,softmax,MC dropout mean p,2,2,0.827032,1.156435,0.328676,0.154635
+noise_0.05,salinas,evidential,alpha/S,0,0,0.873159,0.666217,0.213289,0.213789
+noise_0.05,salinas,evidential,alpha/S,0,1,0.877698,0.679043,0.216752,0.232148
+noise_0.05,salinas,evidential,alpha/S,0,2,0.873715,0.680090,0.218671,0.225929
+noise_0.05,salinas,evidential,alpha/S,1,0,0.815138,0.854838,0.289570,0.138338
+noise_0.05,salinas,evidential,alpha/S,1,1,0.829798,0.819119,0.278908,0.141819
+noise_0.05,salinas,evidential,alpha/S,1,2,0.783126,0.904528,0.304552,0.173346
+noise_0.05,salinas,evidential,alpha/S,2,0,0.916560,0.590033,0.191890,0.222737
+noise_0.05,salinas,evidential,alpha/S,2,1,0.929514,0.554210,0.178318,0.222699
+noise_0.05,salinas,evidential,alpha/S,2,2,0.923350,0.585627,0.190848,0.214493
+noise_0.05,salinas,hybrid_evidential,alpha/S,0,0,0.419798,1.801971,0.607048,0.023466
+noise_0.05,salinas,hybrid_evidential,alpha/S,1,0,0.606223,1.510554,0.503163,0.104062
+noise_0.05,salinas,hybrid_evidential,alpha/S,2,0,0.690390,1.291968,0.426739,0.102632
+noise_0.05,salinas,hybrid_softmax,softmax p,0,0,0.898433,1.092129,0.188835,0.090112
+noise_0.05,salinas,hybrid_softmax,softmax p,1,0,0.796829,3.311229,0.387059,0.189002
+noise_0.05,salinas,hybrid_softmax,softmax p,2,0,0.892618,1.274190,0.203963,0.098541
+noise_0.05,salinas,nsu,softmax(zT-zF),0,0,0.957534,0.448151,0.078141,0.036836
+noise_0.05,salinas,nsu,T/sum(T),0,0,0.957710,0.167169,0.069124,0.018994
+noise_0.05,salinas,nsu,softmax(zT-zF),0,1,0.963362,0.358613,0.065928,0.030935
+noise_0.05,salinas,nsu,T/sum(T),0,1,0.963391,0.144337,0.058692,0.013643
+noise_0.05,salinas,nsu,softmax(zT-zF),0,2,0.957739,0.374709,0.077304,0.036574
+noise_0.05,salinas,nsu,T/sum(T),0,2,0.957768,0.146592,0.066945,0.017958
+noise_0.05,salinas,nsu,softmax(zT-zF),1,0,0.828153,2.185573,0.318795,0.154908
+noise_0.05,salinas,nsu,T/sum(T),1,0,0.828182,0.812944,0.272916,0.113079
+noise_0.05,salinas,nsu,softmax(zT-zF),1,1,0.831713,1.956710,0.300887,0.142554
+noise_0.05,salinas,nsu,T/sum(T),1,1,0.831743,0.795557,0.263262,0.102996
+noise_0.05,salinas,nsu,softmax(zT-zF),1,2,0.829260,1.662277,0.303043,0.143323
+noise_0.05,salinas,nsu,T/sum(T),1,2,0.829349,0.727179,0.254962,0.097670
+noise_0.05,salinas,nsu,softmax(zT-zF),2,0,0.924451,1.199745,0.144450,0.070467
+noise_0.05,salinas,nsu,T/sum(T),2,0,0.924332,0.412727,0.130286,0.052264
+noise_0.05,salinas,nsu,softmax(zT-zF),2,1,0.921771,1.302240,0.150707,0.073921
+noise_0.05,salinas,nsu,T/sum(T),2,1,0.921682,0.460414,0.137152,0.056474
+noise_0.05,salinas,nsu,softmax(zT-zF),2,2,0.925910,1.186805,0.141211,0.068985
+noise_0.05,salinas,nsu,T/sum(T),2,2,0.926178,0.401470,0.127984,0.049387
+noise_0.05,salinas,softmax,softmax p,0,0,0.954166,0.209306,0.075449,0.025635
+noise_0.05,salinas,softmax,MC dropout mean p,0,0,0.954225,0.190456,0.074103,0.021006
+noise_0.05,salinas,softmax,softmax p,0,1,0.956275,0.211866,0.072298,0.024616
+noise_0.05,salinas,softmax,MC dropout mean p,0,1,0.956831,0.191955,0.071017,0.019603
+noise_0.05,salinas,softmax,softmax p,0,2,0.956128,0.231222,0.074396,0.025060
+noise_0.05,salinas,softmax,MC dropout mean p,0,2,0.956421,0.211310,0.073691,0.021476
+noise_0.05,salinas,softmax,softmax p,0,3,0.957065,0.209489,0.072098,0.026431
+noise_0.05,salinas,softmax,MC dropout mean p,0,3,0.956890,0.188504,0.071198,0.022835
+noise_0.05,salinas,softmax,softmax p,0,4,0.950359,0.271366,0.082053,0.025457
+noise_0.05,salinas,softmax,MC dropout mean p,0,4,0.950359,0.241729,0.081295,0.020595
+noise_0.05,salinas,softmax,softmax p,1,0,0.847450,1.166286,0.265507,0.107094
+noise_0.05,salinas,softmax,MC dropout mean p,1,0,0.847360,1.071424,0.263128,0.099575
+noise_0.05,salinas,softmax,softmax p,1,1,0.835153,1.116165,0.286643,0.128315
+noise_0.05,salinas,softmax,MC dropout mean p,1,1,0.835572,1.038284,0.280782,0.118806
+noise_0.05,salinas,softmax,softmax p,1,2,0.843411,0.915839,0.270618,0.118211
+noise_0.05,salinas,softmax,MC dropout mean p,1,2,0.843351,0.859670,0.262309,0.107659
+noise_0.05,salinas,softmax,softmax p,2,0,0.932998,0.422392,0.117957,0.049602
+noise_0.05,salinas,softmax,MC dropout mean p,2,0,0.933296,0.385698,0.116513,0.046000
+noise_0.05,salinas,softmax,softmax p,2,1,0.930735,0.448835,0.123612,0.055025
+noise_0.05,salinas,softmax,MC dropout mean p,2,1,0.931181,0.408090,0.121705,0.050840
+noise_0.05,salinas,softmax,softmax p,2,2,0.932283,0.479795,0.120801,0.051918
+noise_0.05,salinas,softmax,MC dropout mean p,2,2,0.932104,0.432217,0.119214,0.047595
+noise_0.1,pavia_u,evidential,alpha/S,0,0,0.924901,0.469340,0.152633,0.141581
+noise_0.1,pavia_u,evidential,alpha/S,0,1,0.920599,0.464541,0.160927,0.136457
+noise_0.1,pavia_u,evidential,alpha/S,0,2,0.926019,0.458893,0.150731,0.142104
+noise_0.1,pavia_u,evidential,alpha/S,1,0,0.861116,0.646023,0.242845,0.114729
+noise_0.1,pavia_u,evidential,alpha/S,1,1,0.854709,0.649289,0.246671,0.104918
+noise_0.1,pavia_u,evidential,alpha/S,1,2,0.855174,0.651485,0.247159,0.108268
+noise_0.1,pavia_u,evidential,alpha/S,2,0,0.820613,0.807209,0.315837,0.042436
+noise_0.1,pavia_u,evidential,alpha/S,2,1,0.826713,0.760930,0.296133,0.089445
+noise_0.1,pavia_u,evidential,alpha/S,2,2,0.825259,0.761677,0.295350,0.066617
+noise_0.1,pavia_u,hybrid_evidential,alpha/S,0,0,0.765895,0.882953,0.304897,0.063821
+noise_0.1,pavia_u,hybrid_evidential,alpha/S,1,0,0.628307,1.337080,0.491542,0.126078
+noise_0.1,pavia_u,hybrid_evidential,alpha/S,2,0,0.729181,1.246104,0.438637,0.151960
+noise_0.1,pavia_u,hybrid_softmax,softmax p,0,0,0.897768,1.774807,0.193472,0.092304
+noise_0.1,pavia_u,hybrid_softmax,softmax p,1,0,0.828901,2.816376,0.329543,0.160416
+noise_0.1,pavia_u,hybrid_softmax,softmax p,2,0,0.799582,4.288719,0.386667,0.188853
+noise_0.1,pavia_u,nsu,softmax(zT-zF),0,0,0.924427,1.456825,0.144173,0.069916
+noise_0.1,pavia_u,nsu,T/sum(T),0,0,0.923885,0.784477,0.137834,0.051981
+noise_0.1,pavia_u,nsu,softmax(zT-zF),0,1,0.918533,1.303583,0.149954,0.071799
+noise_0.1,pavia_u,nsu,T/sum(T),0,1,0.918262,0.600418,0.132230,0.046193
+noise_0.1,pavia_u,nsu,softmax(zT-zF),0,2,0.924393,1.220305,0.136465,0.065146
+noise_0.1,pavia_u,nsu,T/sum(T),0,2,0.924223,0.598044,0.120594,0.041295
+noise_0.1,pavia_u,nsu,softmax(zT-zF),1,0,0.867130,1.810214,0.248349,0.119983
+noise_0.1,pavia_u,nsu,T/sum(T),1,0,0.867416,0.667866,0.227856,0.093492
+noise_0.1,pavia_u,nsu,softmax(zT-zF),1,1,0.864230,1.711683,0.256610,0.124432
+noise_0.1,pavia_u,nsu,T/sum(T),1,1,0.864982,0.649449,0.230539,0.092493
+noise_0.1,pavia_u,nsu,softmax(zT-zF),1,2,0.872499,1.623178,0.237365,0.113978
+noise_0.1,pavia_u,nsu,T/sum(T),1,2,0.872714,0.653658,0.217110,0.086164
+noise_0.1,pavia_u,nsu,softmax(zT-zF),2,0,0.824195,3.782566,0.345987,0.171502
+noise_0.1,pavia_u,nsu,T/sum(T),2,0,0.824372,1.072191,0.332717,0.155695
+noise_0.1,pavia_u,nsu,softmax(zT-zF),2,1,0.829302,3.223117,0.336019,0.165876
+noise_0.1,pavia_u,nsu,T/sum(T),2,1,0.829621,0.964023,0.320899,0.150201
+noise_0.1,pavia_u,nsu,softmax(zT-zF),2,2,0.829834,3.115609,0.333511,0.164602
+noise_0.1,pavia_u,nsu,T/sum(T),2,2,0.829479,1.071148,0.319439,0.147896
+noise_0.1,pavia_u,softmax,softmax p,0,0,0.926324,0.907281,0.131764,0.051474
+noise_0.1,pavia_u,softmax,MC dropout mean p,0,0,0.926561,0.789047,0.126409,0.043596
+noise_0.1,pavia_u,softmax,softmax p,0,1,0.918329,1.401674,0.152288,0.066216
+noise_0.1,pavia_u,softmax,MC dropout mean p,0,1,0.918702,1.274841,0.150624,0.062435
+noise_0.1,pavia_u,softmax,softmax p,0,2,0.925172,0.792432,0.138966,0.056700
+noise_0.1,pavia_u,softmax,MC dropout mean p,0,2,0.925172,0.685576,0.136458,0.051931
+noise_0.1,pavia_u,softmax,softmax p,0,3,0.924223,0.738382,0.131455,0.052488
+noise_0.1,pavia_u,softmax,MC dropout mean p,0,3,0.924088,0.666126,0.122864,0.042803
+noise_0.1,pavia_u,softmax,softmax p,0,4,0.921954,1.331481,0.146708,0.060729
+noise_0.1,pavia_u,softmax,MC dropout mean p,0,4,0.921581,1.110894,0.145999,0.058438
+noise_0.1,pavia_u,softmax,softmax p,1,0,0.867488,0.628133,0.225292,0.091599
+noise_0.1,pavia_u,softmax,MC dropout mean p,1,0,0.867309,0.599784,0.222108,0.084709
+noise_0.1,pavia_u,softmax,softmax p,1,1,0.857751,0.743806,0.248387,0.107781
+noise_0.1,pavia_u,softmax,MC dropout mean p,1,1,0.857716,0.704986,0.244945,0.102320
+noise_0.1,pavia_u,softmax,softmax p,1,2,0.854673,0.752298,0.257158,0.114402
+noise_0.1,pavia_u,softmax,MC dropout mean p,1,2,0.854172,0.715803,0.253481,0.108383
+noise_0.1,pavia_u,softmax,softmax p,2,0,0.827280,1.274092,0.327146,0.153059
+noise_0.1,pavia_u,softmax,MC dropout mean p,2,0,0.827032,1.210054,0.325682,0.148885
+noise_0.1,pavia_u,softmax,softmax p,2,1,0.830614,1.246608,0.321754,0.151583
+noise_0.1,pavia_u,softmax,MC dropout mean p,2,1,0.830685,1.178698,0.320050,0.148064
+noise_0.1,pavia_u,softmax,softmax p,2,2,0.827068,1.171731,0.327309,0.156419
+noise_0.1,pavia_u,softmax,MC dropout mean p,2,2,0.827032,1.115399,0.325526,0.152799
+noise_0.1,salinas,evidential,alpha/S,0,0,0.868941,0.675206,0.217246,0.210852
+noise_0.1,salinas,evidential,alpha/S,0,1,0.875062,0.687423,0.220210,0.230597
+noise_0.1,salinas,evidential,alpha/S,0,2,0.870523,0.686657,0.221329,0.224377
+noise_0.1,salinas,evidential,alpha/S,1,0,0.814779,0.854275,0.288678,0.138645
+noise_0.1,salinas,evidential,alpha/S,1,1,0.831144,0.817727,0.277708,0.142859
+noise_0.1,salinas,evidential,alpha/S,1,2,0.784652,0.901467,0.303444,0.169767
+noise_0.1,salinas,evidential,alpha/S,2,0,0.913433,0.602839,0.197090,0.219366
+noise_0.1,salinas,evidential,alpha/S,2,1,0.925226,0.568178,0.184398,0.219696
+noise_0.1,salinas,evidential,alpha/S,2,2,0.921295,0.596022,0.195368,0.212852
+noise_0.1,salinas,hybrid_evidential,alpha/S,0,0,0.419476,1.802562,0.607217,0.023246
+noise_0.1,salinas,hybrid_evidential,alpha/S,1,0,0.601107,1.533130,0.511059,0.111165
+noise_0.1,salinas,hybrid_evidential,alpha/S,2,0,0.688455,1.294513,0.427865,0.102692
+noise_0.1,salinas,hybrid_softmax,softmax p,0,0,0.896647,1.099764,0.191257,0.091350
+noise_0.1,salinas,hybrid_softmax,softmax p,1,0,0.796500,3.324446,0.389410,0.189636
+noise_0.1,salinas,hybrid_softmax,softmax p,2,0,0.891814,1.269127,0.204088,0.098777
+noise_0.1,salinas,nsu,softmax(zT-zF),0,0,0.956392,0.448959,0.080476,0.037900
+noise_0.1,salinas,nsu,T/sum(T),0,0,0.956538,0.167675,0.071373,0.019246
+noise_0.1,salinas,nsu,softmax(zT-zF),0,1,0.959233,0.381947,0.073860,0.034793
+noise_0.1,salinas,nsu,T/sum(T),0,1,0.958998,0.149803,0.064159,0.017078
+noise_0.1,salinas,nsu,softmax(zT-zF),0,2,0.955220,0.396699,0.082445,0.038896
+noise_0.1,salinas,nsu,T/sum(T),0,2,0.955074,0.152793,0.071201,0.019881
+noise_0.1,salinas,nsu,softmax(zT-zF),1,0,0.831623,2.166632,0.313723,0.152270
+noise_0.1,salinas,nsu,T/sum(T),1,0,0.831593,0.806272,0.269074,0.110625
+noise_0.1,salinas,nsu,softmax(zT-zF),1,1,0.833328,1.963847,0.298310,0.141792
+noise_0.1,salinas,nsu,T/sum(T),1,1,0.833269,0.795129,0.261597,0.103095
+noise_0.1,salinas,nsu,softmax(zT-zF),1,2,0.831593,1.636269,0.298489,0.141595
+noise_0.1,salinas,nsu,T/sum(T),1,2,0.831653,0.717345,0.251627,0.096855
+noise_0.1,salinas,nsu,softmax(zT-zF),2,0,0.921652,1.266495,0.149902,0.073351
+noise_0.1,salinas,nsu,T/sum(T),2,0,0.921622,0.439318,0.135912,0.054459
+noise_0.1,salinas,nsu,softmax(zT-zF),2,1,0.918644,1.371485,0.156969,0.077116
+noise_0.1,salinas,nsu,T/sum(T),2,1,0.918555,0.493009,0.142993,0.058328
+noise_0.1,salinas,nsu,softmax(zT-zF),2,2,0.922248,1.273445,0.148258,0.071941
+noise_0.1,salinas,nsu,T/sum(T),2,2,0.922307,0.440309,0.135433,0.051793
+noise_0.1,salinas,softmax,softmax p,0,0,0.952028,0.214266,0.078793,0.027713
+noise_0.1,salinas,softmax,MC dropout mean p,0,0,0.952204,0.195232,0.077393,0.022761
+noise_0.1,salinas,softmax,softmax p,0,1,0.954049,0.217675,0.076383,0.027046
+noise_0.1,salinas,softmax,MC dropout mean p,0,1,0.954371,0.197300,0.074843,0.022388
+noise_0.1,salinas,softmax,softmax p,0,2,0.955015,0.233077,0.076469,0.026154
+noise_0.1,salinas,softmax,MC dropout mean p,0,2,0.954840,0.213293,0.075655,0.021642
+noise_0.1,salinas,softmax,softmax p,0,3,0.954283,0.219034,0.077469,0.028991
+noise_0.1,salinas,softmax,MC dropout mean p,0,3,0.954225,0.197074,0.076362,0.024805
+noise_0.1,salinas,softmax,softmax p,0,4,0.947928,0.274168,0.084670,0.027817
+noise_0.1,salinas,softmax,MC dropout mean p,0,4,0.947752,0.244340,0.083802,0.021773
+noise_0.1,salinas,softmax,softmax p,1,0,0.848317,1.169807,0.264342,0.106920
+noise_0.1,salinas,softmax,MC dropout mean p,1,0,0.847779,1.074407,0.261987,0.099932
+noise_0.1,salinas,softmax,softmax p,1,1,0.841406,1.099062,0.277256,0.122572
+noise_0.1,salinas,softmax,MC dropout mean p,1,1,0.840898,1.022299,0.271762,0.114076
+noise_0.1,salinas,softmax,softmax p,1,2,0.843470,0.917304,0.268794,0.118062
+noise_0.1,salinas,softmax,MC dropout mean p,1,2,0.843859,0.860926,0.260559,0.107051
+noise_0.1,salinas,softmax,softmax p,2,0,0.930913,0.455460,0.122140,0.051645
+noise_0.1,salinas,softmax,MC dropout mean p,2,0,0.931032,0.414505,0.120826,0.047278
+noise_0.1,salinas,softmax,softmax p,2,1,0.929275,0.470615,0.126484,0.056204
+noise_0.1,salinas,softmax,MC dropout mean p,2,1,0.929365,0.427385,0.124639,0.051840
+noise_0.1,salinas,softmax,softmax p,2,2,0.929097,0.519740,0.125978,0.054523
+noise_0.1,salinas,softmax,MC dropout mean p,2,2,0.929186,0.467552,0.124495,0.050030
+noise_0.2,pavia_u,evidential,alpha/S,0,0,0.919515,0.498134,0.166229,0.151823
+noise_0.2,pavia_u,evidential,alpha/S,0,1,0.910979,0.503285,0.179086,0.145024
+noise_0.2,pavia_u,evidential,alpha/S,0,2,0.918058,0.491916,0.166671,0.152156
+noise_0.2,pavia_u,evidential,alpha/S,1,0,0.857179,0.669258,0.252253,0.136898
+noise_0.2,pavia_u,evidential,alpha/S,1,1,0.854136,0.669158,0.251962,0.136249
+noise_0.2,pavia_u,evidential,alpha/S,1,2,0.855675,0.665843,0.252120,0.133458
+noise_0.2,pavia_u,evidential,alpha/S,2,0,0.813271,0.824130,0.325543,0.084480
+noise_0.2,pavia_u,evidential,alpha/S,2,1,0.815789,0.787715,0.305767,0.113420
+noise_0.2,pavia_u,evidential,alpha/S,2,2,0.825082,0.762274,0.294750,0.095334
+noise_0.2,pavia_u,hybrid_evidential,alpha/S,0,0,0.752718,0.935139,0.325564,0.066847
+noise_0.2,pavia_u,hybrid_evidential,alpha/S,1,0,0.612199,1.428657,0.529515,0.127219
+noise_0.2,pavia_u,hybrid_evidential,alpha/S,2,0,0.706270,1.380354,0.487434,0.179074
+noise_0.2,pavia_u,hybrid_softmax,softmax p,0,0,0.884320,1.893742,0.216803,0.104490
+noise_0.2,pavia_u,hybrid_softmax,softmax p,1,0,0.807639,3.041596,0.366889,0.179174
+noise_0.2,pavia_u,hybrid_softmax,softmax p,2,0,0.777132,4.659536,0.428898,0.209878
+noise_0.2,pavia_u,nsu,softmax(zT-zF),0,0,0.915619,1.493868,0.158866,0.076354
+noise_0.2,pavia_u,nsu,T/sum(T),0,0,0.915044,0.806008,0.150236,0.053765
+noise_0.2,pavia_u,nsu,softmax(zT-zF),0,1,0.910742,1.323213,0.161228,0.076281
+noise_0.2,pavia_u,nsu,T/sum(T),0,1,0.910708,0.619746,0.142061,0.045289
+noise_0.2,pavia_u,nsu,softmax(zT-zF),0,2,0.918566,1.246579,0.145947,0.068418
+noise_0.2,pavia_u,nsu,T/sum(T),0,2,0.918262,0.616459,0.129477,0.040134
+noise_0.2,pavia_u,nsu,softmax(zT-zF),1,0,0.865734,1.647234,0.249776,0.119523
+noise_0.2,pavia_u,nsu,T/sum(T),1,0,0.866127,0.661613,0.225296,0.086128
+noise_0.2,pavia_u,nsu,softmax(zT-zF),1,1,0.859863,1.508511,0.256705,0.120851
+noise_0.2,pavia_u,nsu,T/sum(T),1,1,0.860364,0.641211,0.228791,0.078377
+noise_0.2,pavia_u,nsu,softmax(zT-zF),1,2,0.870029,1.500766,0.239320,0.113362
+noise_0.2,pavia_u,nsu,T/sum(T),1,2,0.870065,0.659241,0.217630,0.078665
+noise_0.2,pavia_u,nsu,softmax(zT-zF),2,0,0.818698,3.337193,0.353565,0.174054
+noise_0.2,pavia_u,nsu,T/sum(T),2,0,0.818981,1.055010,0.335535,0.147747
+noise_0.2,pavia_u,nsu,softmax(zT-zF),2,1,0.826004,2.572485,0.336365,0.164504
+noise_0.2,pavia_u,nsu,T/sum(T),2,1,0.826039,0.911922,0.314637,0.134727
+noise_0.2,pavia_u,nsu,softmax(zT-zF),2,2,0.820506,2.713010,0.345461,0.168509
+noise_0.2,pavia_u,nsu,T/sum(T),2,2,0.819939,1.071512,0.326866,0.140340
+noise_0.2,pavia_u,softmax,softmax p,0,0,0.919617,0.927184,0.141395,0.052350
+noise_0.2,pavia_u,softmax,MC dropout mean p,0,0,0.918905,0.808613,0.135912,0.044507
+noise_0.2,pavia_u,softmax,softmax p,0,1,0.910742,1.424624,0.163660,0.067426
+noise_0.2,pavia_u,softmax,MC dropout mean p,0,1,0.911012,1.298137,0.161698,0.062994
+noise_0.2,pavia_u,softmax,softmax p,0,2,0.919176,0.811566,0.147886,0.056968
+noise_0.2,pavia_u,softmax,MC dropout mean p,0,2,0.918736,0.704534,0.145355,0.051201
+noise_0.2,pavia_u,softmax,softmax p,0,3,0.918600,0.753607,0.138596,0.053300
+noise_0.2,pavia_u,softmax,MC dropout mean p,0,3,0.918533,0.681074,0.129867,0.042835
+noise_0.2,pavia_u,softmax,softmax p,0,4,0.912300,1.357336,0.159551,0.062984
+noise_0.2,pavia_u,softmax,MC dropout mean p,0,4,0.911859,1.135414,0.158403,0.058005
+noise_0.2,pavia_u,softmax,softmax p,1,0,0.866342,0.597994,0.222943,0.084534
+noise_0.2,pavia_u,softmax,MC dropout mean p,1,0,0.866271,0.571564,0.219591,0.076079
+noise_0.2,pavia_u,softmax,softmax p,1,1,0.857000,0.705330,0.248165,0.103206
+noise_0.2,pavia_u,softmax,MC dropout mean p,1,1,0.856892,0.668810,0.244629,0.096009
+noise_0.2,pavia_u,softmax,softmax p,1,2,0.853850,0.707609,0.253867,0.106735
+noise_0.2,pavia_u,softmax,MC dropout mean p,1,2,0.853671,0.674962,0.250297,0.098952
+noise_0.2,pavia_u,softmax,softmax p,2,0,0.826536,1.163046,0.321183,0.144974
+noise_0.2,pavia_u,softmax,MC dropout mean p,2,0,0.826429,1.110653,0.319259,0.139038
+noise_0.2,pavia_u,softmax,softmax p,2,1,0.827706,1.085349,0.316838,0.143058
+noise_0.2,pavia_u,softmax,MC dropout mean p,2,1,0.827351,1.034088,0.314854,0.137652
+noise_0.2,pavia_u,softmax,softmax p,2,2,0.826358,1.035285,0.322004,0.148557
+noise_0.2,pavia_u,softmax,MC dropout mean p,2,2,0.826110,0.990027,0.319719,0.143460
+noise_0.2,salinas,evidential,alpha/S,0,0,0.854093,0.718374,0.234917,0.201365
+noise_0.2,salinas,evidential,alpha/S,0,1,0.861063,0.730597,0.237659,0.224360
+noise_0.2,salinas,evidential,alpha/S,0,2,0.860097,0.717330,0.234412,0.221678
+noise_0.2,salinas,evidential,alpha/S,1,0,0.811159,0.868309,0.293864,0.138339
+noise_0.2,salinas,evidential,alpha/S,1,1,0.829110,0.823320,0.279661,0.146059
+noise_0.2,salinas,evidential,alpha/S,1,2,0.781780,0.913219,0.308214,0.166587
+noise_0.2,salinas,evidential,alpha/S,2,0,0.890772,0.679056,0.228032,0.201801
+noise_0.2,salinas,evidential,alpha/S,2,1,0.893601,0.654901,0.220613,0.191861
+noise_0.2,salinas,evidential,alpha/S,2,2,0.898842,0.666862,0.225389,0.195994
+noise_0.2,salinas,hybrid_evidential,alpha/S,0,0,0.418246,1.807126,0.608735,0.023376
+noise_0.2,salinas,hybrid_evidential,alpha/S,1,0,0.594734,1.568098,0.522698,0.115581
+noise_0.2,salinas,hybrid_evidential,alpha/S,2,0,0.682052,1.310569,0.433177,0.099604
+noise_0.2,salinas,hybrid_softmax,softmax p,0,0,0.886338,1.191334,0.210484,0.100924
+noise_0.2,salinas,hybrid_softmax,softmax p,1,0,0.794824,3.361167,0.391321,0.190404
+noise_0.2,salinas,hybrid_softmax,softmax p,2,0,0.884846,1.360986,0.217808,0.104724
+noise_0.2,salinas,nsu,softmax(zT-zF),0,0,0.945614,0.508204,0.100744,0.047583
+noise_0.2,salinas,nsu,T/sum(T),0,0,0.945439,0.188671,0.087786,0.026630
+noise_0.2,salinas,nsu,softmax(zT-zF),0,1,0.946141,0.542904,0.100042,0.047392
+noise_0.2,salinas,nsu,T/sum(T),0,1,0.946141,0.190572,0.086603,0.028061
+noise_0.2,salinas,nsu,softmax(zT-zF),0,2,0.944209,0.508802,0.103182,0.049173
+noise_0.2,salinas,nsu,T/sum(T),0,2,0.944209,0.185282,0.088771,0.028101
+noise_0.2,salinas,nsu,softmax(zT-zF),1,0,0.830007,2.246314,0.319180,0.155739
+noise_0.2,salinas,nsu,T/sum(T),1,0,0.829918,0.827338,0.274311,0.114916
+noise_0.2,salinas,nsu,softmax(zT-zF),1,1,0.826058,2.114073,0.313046,0.150271
+noise_0.2,salinas,nsu,T/sum(T),1,1,0.826118,0.836822,0.273973,0.111748
+noise_0.2,salinas,nsu,softmax(zT-zF),1,2,0.829589,1.672133,0.300911,0.141967
+noise_0.2,salinas,nsu,T/sum(T),1,2,0.829559,0.726758,0.255102,0.098110
+noise_0.2,salinas,nsu,softmax(zT-zF),2,0,0.896727,1.632046,0.197348,0.096783
+noise_0.2,salinas,nsu,T/sum(T),2,0,0.896608,0.570799,0.177694,0.074683
+noise_0.2,salinas,nsu,softmax(zT-zF),2,1,0.892499,1.764233,0.207438,0.101303
+noise_0.2,salinas,nsu,T/sum(T),2,1,0.892439,0.647790,0.188576,0.080458
+noise_0.2,salinas,nsu,softmax(zT-zF),2,2,0.892558,1.707694,0.205434,0.100424
+noise_0.2,salinas,nsu,T/sum(T),2,2,0.892677,0.610927,0.185377,0.078105
+noise_0.2,salinas,softmax,softmax p,0,0,0.942334,0.250127,0.096150,0.037755
+noise_0.2,salinas,softmax,MC dropout mean p,0,0,0.942422,0.228841,0.094252,0.032825
+noise_0.2,salinas,softmax,softmax p,0,1,0.945146,0.247698,0.092717,0.036453
+noise_0.2,salinas,softmax,MC dropout mean p,0,1,0.945058,0.224970,0.090382,0.031823
+noise_0.2,salinas,softmax,softmax p,0,2,0.947577,0.253030,0.089205,0.033075
+noise_0.2,salinas,softmax,MC dropout mean p,0,2,0.947635,0.231944,0.087807,0.028289
+noise_0.2,salinas,softmax,softmax p,0,3,0.944209,0.261505,0.095419,0.039057
+noise_0.2,salinas,softmax,MC dropout mean p,0,3,0.943945,0.235564,0.093737,0.034805
+noise_0.2,salinas,softmax,softmax p,0,4,0.942451,0.297627,0.096357,0.035271
+noise_0.2,salinas,softmax,MC dropout mean p,0,4,0.942012,0.265824,0.095010,0.029195
+noise_0.2,salinas,softmax,softmax p,1,0,0.846343,1.209112,0.268339,0.109576
+noise_0.2,salinas,softmax,MC dropout mean p,1,0,0.846223,1.107950,0.265783,0.102146
+noise_0.2,salinas,softmax,softmax p,1,1,0.849155,1.086558,0.264847,0.115152
+noise_0.2,salinas,softmax,MC dropout mean p,1,1,0.849304,1.009142,0.259669,0.105507
+noise_0.2,salinas,softmax,softmax p,1,2,0.842393,0.948534,0.272379,0.120073
+noise_0.2,salinas,softmax,MC dropout mean p,1,2,0.842214,0.887807,0.264231,0.109249
+noise_0.2,salinas,softmax,softmax p,2,0,0.915637,0.594173,0.148756,0.063568
+noise_0.2,salinas,softmax,MC dropout mean p,2,0,0.915547,0.536943,0.147157,0.058598
+noise_0.2,salinas,softmax,softmax p,2,1,0.919180,0.553424,0.144372,0.063364
+noise_0.2,salinas,softmax,MC dropout mean p,2,1,0.919151,0.501105,0.142373,0.058153
+noise_0.2,salinas,softmax,softmax p,2,2,0.911051,0.674635,0.159637,0.069812
+noise_0.2,salinas,softmax,MC dropout mean p,2,2,0.911081,0.603490,0.157329,0.064784
+bands_zero_10pct,pavia_u,evidential,alpha/S,0,0,0.334033,2.542698,0.988457,0.331659
+bands_zero_10pct,pavia_u,evidential,alpha/S,0,1,0.352969,2.316300,0.961816,0.339651
+bands_zero_10pct,pavia_u,evidential,alpha/S,0,2,0.363368,2.622827,0.986045,0.368476
+bands_zero_10pct,pavia_u,evidential,alpha/S,1,0,0.338762,2.826557,1.093605,0.460204
+bands_zero_10pct,pavia_u,evidential,alpha/S,1,1,0.208827,2.873605,1.227036,0.558421
+bands_zero_10pct,pavia_u,evidential,alpha/S,1,2,0.333572,2.895590,1.125613,0.478473
+bands_zero_10pct,pavia_u,evidential,alpha/S,2,0,0.208505,2.912317,1.176041,0.511945
+bands_zero_10pct,pavia_u,evidential,alpha/S,2,1,0.087282,3.456360,1.401108,0.667910
+bands_zero_10pct,pavia_u,evidential,alpha/S,2,2,0.546070,1.408666,0.621520,0.055195
+bands_zero_10pct,pavia_u,hybrid_evidential,alpha/S,0,0,0.260628,4.196235,1.356410,0.631009
+bands_zero_10pct,pavia_u,hybrid_evidential,alpha/S,1,0,0.439346,3.205724,1.053319,0.510738
+bands_zero_10pct,pavia_u,hybrid_evidential,alpha/S,2,0,0.512555,3.212244,0.937908,0.458745
+bands_zero_10pct,pavia_u,hybrid_softmax,softmax p,0,0,0.250093,18.718095,1.475909,0.731965
+bands_zero_10pct,pavia_u,hybrid_softmax,softmax p,1,0,0.533092,11.716618,0.924363,0.460415
+bands_zero_10pct,pavia_u,hybrid_softmax,softmax p,2,0,0.514470,12.925946,0.960760,0.478032
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),0,0,0.211748,18.019362,1.539253,0.762586
+bands_zero_10pct,pavia_u,nsu,T/sum(T),0,0,0.210393,9.272803,1.463175,0.697290
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),0,1,0.280512,11.099857,1.355577,0.665520
+bands_zero_10pct,pavia_u,nsu,T/sum(T),0,1,0.274957,5.980322,1.244679,0.592697
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),0,2,0.244606,14.757498,1.442586,0.707075
+bands_zero_10pct,pavia_u,nsu,T/sum(T),0,2,0.245757,8.271589,1.345539,0.621119
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),1,0,0.350503,13.231663,1.267401,0.628805
+bands_zero_10pct,pavia_u,nsu,T/sum(T),1,0,0.351792,9.241614,1.209963,0.591734
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),1,1,0.343845,11.145731,1.227166,0.594632
+bands_zero_10pct,pavia_u,nsu,T/sum(T),1,1,0.354440,6.576718,1.121186,0.499789
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),1,2,0.241007,14.983512,1.394501,0.672625
+bands_zero_10pct,pavia_u,nsu,T/sum(T),1,2,0.231628,8.253081,1.283109,0.591572
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),2,0,0.097638,18.270627,1.732215,0.854360
+bands_zero_10pct,pavia_u,nsu,T/sum(T),2,0,0.099801,9.782370,1.616505,0.784426
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),2,1,0.123457,21.994422,1.734581,0.863381
+bands_zero_10pct,pavia_u,nsu,T/sum(T),2,1,0.123244,12.326451,1.708568,0.844881
+bands_zero_10pct,pavia_u,nsu,softmax(zT-zF),2,2,0.280111,12.428206,1.372031,0.667280
+bands_zero_10pct,pavia_u,nsu,T/sum(T),2,2,0.288091,6.637781,1.300683,0.605074
+bands_zero_10pct,pavia_u,softmax,softmax p,0,0,0.274042,10.380412,1.328954,0.640749
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,0,0,0.273805,9.321149,1.281030,0.607211
+bands_zero_10pct,pavia_u,softmax,softmax p,0,1,0.370279,8.313940,1.180559,0.581634
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,0,1,0.370651,7.307045,1.142255,0.556369
+bands_zero_10pct,pavia_u,softmax,softmax p,0,2,0.365672,9.340394,1.154471,0.547127
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,0,2,0.365638,8.578078,1.116170,0.514848
+bands_zero_10pct,pavia_u,softmax,softmax p,0,3,0.231157,13.045652,1.453269,0.713257
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,0,3,0.232682,10.923301,1.381397,0.665720
+bands_zero_10pct,pavia_u,softmax,softmax p,0,4,0.227228,6.183356,1.304058,0.600707
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,0,4,0.225975,5.236677,1.209246,0.534550
+bands_zero_10pct,pavia_u,softmax,softmax p,1,0,0.345957,11.144929,1.285729,0.638751
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,1,0,0.345885,9.489117,1.253077,0.611996
+bands_zero_10pct,pavia_u,softmax,softmax p,1,1,0.285714,8.058486,1.206405,0.569102
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,1,1,0.286860,6.794074,1.138151,0.515239
+bands_zero_10pct,pavia_u,softmax,softmax p,1,2,0.346780,8.758243,1.188424,0.560095
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,1,2,0.346279,7.307013,1.128958,0.502154
+bands_zero_10pct,pavia_u,softmax,softmax p,2,0,0.530394,3.352170,0.817132,0.301584
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,2,0,0.528125,3.060221,0.797056,0.269306
+bands_zero_10pct,pavia_u,softmax,softmax p,2,1,0.085544,14.990006,1.826372,0.912719
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,2,1,0.085189,11.913137,1.820615,0.910258
+bands_zero_10pct,pavia_u,softmax,softmax p,2,2,0.316463,5.401035,1.143077,0.446291
+bands_zero_10pct,pavia_u,softmax,MC dropout mean p,2,2,0.309193,4.590124,1.102192,0.393328
+bands_zero_10pct,salinas,evidential,alpha/S,0,0,0.145526,3.015993,1.066713,0.341220
+bands_zero_10pct,salinas,evidential,alpha/S,0,1,0.150066,3.444078,1.253428,0.535028
+bands_zero_10pct,salinas,evidential,alpha/S,0,2,0.266071,2.782794,0.967127,0.284097
+bands_zero_10pct,salinas,evidential,alpha/S,1,0,0.116859,3.236356,1.095719,0.380700
+bands_zero_10pct,salinas,evidential,alpha/S,1,1,0.218130,3.131452,1.062791,0.324471
+bands_zero_10pct,salinas,evidential,alpha/S,1,2,0.099925,3.664266,1.282780,0.530068
+bands_zero_10pct,salinas,evidential,alpha/S,2,0,0.054346,3.345156,1.279116,0.578837
+bands_zero_10pct,salinas,evidential,alpha/S,2,1,0.094816,3.628601,1.169285,0.426099
+bands_zero_10pct,salinas,evidential,alpha/S,2,2,0.111194,3.236200,1.154136,0.442733
+bands_zero_10pct,salinas,hybrid_evidential,alpha/S,0,0,0.124264,3.869109,1.301015,0.468589
+bands_zero_10pct,salinas,hybrid_evidential,alpha/S,1,0,0.064862,3.074694,1.036852,0.210484
+bands_zero_10pct,salinas,hybrid_evidential,alpha/S,2,0,0.216819,4.786571,1.392664,0.636338
+bands_zero_10pct,salinas,hybrid_softmax,softmax p,0,0,0.137970,22.919228,1.695134,0.840466
+bands_zero_10pct,salinas,hybrid_softmax,softmax p,1,0,0.092954,23.519397,1.808806,0.901972
+bands_zero_10pct,salinas,hybrid_softmax,softmax p,2,0,0.287960,18.789099,1.394398,0.691638
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),0,0,0.069703,22.164943,1.761573,0.870117
+bands_zero_10pct,salinas,nsu,T/sum(T),0,0,0.055645,19.420743,1.779363,0.887974
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),0,1,0.134134,23.167126,1.712884,0.851309
+bands_zero_10pct,salinas,nsu,T/sum(T),0,1,0.134046,15.547563,1.695719,0.834374
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),0,2,0.134163,23.026190,1.711763,0.851097
+bands_zero_10pct,salinas,nsu,T/sum(T),0,2,0.133021,14.811686,1.678773,0.795000
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),1,0,0.105310,19.189328,1.743626,0.863094
+bands_zero_10pct,salinas,nsu,T/sum(T),1,0,0.105340,7.929324,1.640028,0.796978
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),1,1,0.145191,17.701170,1.679964,0.836655
+bands_zero_10pct,salinas,nsu,T/sum(T),1,1,0.146477,7.219308,1.569974,0.769129
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),1,2,0.091997,13.491495,1.728135,0.850839
+bands_zero_10pct,salinas,nsu,T/sum(T),1,2,0.091758,6.321996,1.477903,0.684265
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),2,0,0.090289,21.520761,1.753847,0.868200
+bands_zero_10pct,salinas,nsu,T/sum(T),2,0,0.094518,10.943303,1.694795,0.824042
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),2,1,0.041631,23.332416,1.849656,0.910922
+bands_zero_10pct,salinas,nsu,T/sum(T),2,1,0.041839,12.979620,1.787641,0.866316
+bands_zero_10pct,salinas,nsu,softmax(zT-zF),2,2,0.348977,14.151820,1.239883,0.602851
+bands_zero_10pct,salinas,nsu,T/sum(T),2,2,0.342277,8.292838,1.197406,0.549085
+bands_zero_10pct,salinas,softmax,softmax p,0,0,0.116035,17.061367,1.743215,0.863073
+bands_zero_10pct,salinas,softmax,MC dropout mean p,0,0,0.116064,12.359458,1.636222,0.786366
+bands_zero_10pct,salinas,softmax,softmax p,0,1,0.158735,15.318901,1.610770,0.786292
+bands_zero_10pct,salinas,softmax,MC dropout mean p,0,1,0.158061,10.621549,1.507892,0.695264
+bands_zero_10pct,salinas,softmax,softmax p,0,2,0.192678,16.150482,1.467736,0.699234
+bands_zero_10pct,salinas,softmax,MC dropout mean p,0,2,0.186411,12.438964,1.293658,0.535086
+bands_zero_10pct,salinas,softmax,softmax p,0,3,0.122185,13.781966,1.662380,0.825082
+bands_zero_10pct,salinas,softmax,MC dropout mean p,0,3,0.122507,10.029205,1.490332,0.723579
+bands_zero_10pct,salinas,softmax,softmax p,0,4,0.075970,16.192517,1.629437,0.767474
+bands_zero_10pct,salinas,softmax,MC dropout mean p,0,4,0.079514,11.634725,1.425833,0.613794
+bands_zero_10pct,salinas,softmax,softmax p,1,0,0.076440,11.678032,1.678865,0.819599
+bands_zero_10pct,salinas,softmax,MC dropout mean p,1,0,0.077756,9.568486,1.562967,0.746380
+bands_zero_10pct,salinas,softmax,softmax p,1,1,0.227853,8.477124,1.396707,0.647756
+bands_zero_10pct,salinas,softmax,MC dropout mean p,1,1,0.226956,7.035592,1.317393,0.562261
+bands_zero_10pct,salinas,softmax,softmax p,1,2,0.069289,12.264074,1.796989,0.891198
+bands_zero_10pct,salinas,softmax,MC dropout mean p,1,2,0.069379,10.016409,1.725843,0.846238
+bands_zero_10pct,salinas,softmax,softmax p,2,0,0.060332,14.204173,1.827992,0.914100
+bands_zero_10pct,salinas,softmax,MC dropout mean p,2,0,0.062952,11.165164,1.783918,0.887749
+bands_zero_10pct,salinas,softmax,softmax p,2,1,0.094309,14.092299,1.700293,0.835059
+bands_zero_10pct,salinas,softmax,MC dropout mean p,2,1,0.093475,10.514617,1.509632,0.675905
+bands_zero_10pct,salinas,softmax,softmax p,2,2,0.056550,15.320020,1.817941,0.897195
+bands_zero_10pct,salinas,softmax,MC dropout mean p,2,2,0.056580,11.907450,1.726742,0.844198
+bands_zero_20pct,pavia_u,evidential,alpha/S,0,0,0.500390,1.952209,0.802809,0.352155
+bands_zero_20pct,pavia_u,evidential,alpha/S,0,1,0.478608,2.238892,0.890816,0.406221
+bands_zero_20pct,pavia_u,evidential,alpha/S,0,2,0.539887,1.778983,0.719576,0.255530
+bands_zero_20pct,pavia_u,evidential,alpha/S,1,0,0.124566,2.809012,1.190585,0.527670
+bands_zero_20pct,pavia_u,evidential,alpha/S,1,1,0.093460,2.652945,1.139315,0.523682
+bands_zero_20pct,pavia_u,evidential,alpha/S,1,2,0.342449,2.349083,0.924238,0.258537
+bands_zero_20pct,pavia_u,evidential,alpha/S,2,0,0.073876,3.689016,1.472338,0.703676
+bands_zero_20pct,pavia_u,evidential,alpha/S,2,1,0.087282,3.488313,1.355475,0.583197
+bands_zero_20pct,pavia_u,evidential,alpha/S,2,2,0.080685,3.194260,1.252442,0.540727
+bands_zero_20pct,pavia_u,hybrid_evidential,alpha/S,0,0,0.363606,3.759634,1.168285,0.533070
+bands_zero_20pct,pavia_u,hybrid_evidential,alpha/S,1,0,0.407954,2.339486,0.901375,0.320010
+bands_zero_20pct,pavia_u,hybrid_evidential,alpha/S,2,0,0.482941,3.652186,0.986720,0.478099
+bands_zero_20pct,pavia_u,hybrid_softmax,softmax p,0,0,0.646320,9.146642,0.702278,0.349993
+bands_zero_20pct,pavia_u,hybrid_softmax,softmax p,1,0,0.579590,10.541531,0.833024,0.414644
+bands_zero_20pct,pavia_u,hybrid_softmax,softmax p,2,0,0.529189,12.392409,0.934530,0.465536
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),0,0,0.470784,14.433310,1.056671,0.528071
+bands_zero_20pct,pavia_u,nsu,T/sum(T),0,0,0.470817,6.630599,1.041046,0.515236
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),0,1,0.500051,10.688398,0.981788,0.488689
+bands_zero_20pct,pavia_u,nsu,T/sum(T),0,1,0.500830,4.598814,0.893414,0.450257
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),0,2,0.494055,9.839595,0.976184,0.479916
+bands_zero_20pct,pavia_u,nsu,T/sum(T),0,2,0.493242,3.826223,0.923529,0.446932
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),1,0,0.082078,19.411745,1.811715,0.907455
+bands_zero_20pct,pavia_u,nsu,T/sum(T),1,0,0.083295,12.600124,1.745754,0.882712
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),1,1,0.029388,18.077129,1.892002,0.937870
+bands_zero_20pct,pavia_u,nsu,T/sum(T),1,1,0.029065,9.032682,1.820408,0.895189
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),1,2,0.234492,17.374098,1.504507,0.747683
+bands_zero_20pct,pavia_u,nsu,T/sum(T),1,2,0.230268,11.332021,1.481150,0.728032
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),2,0,0.074585,24.329613,1.846242,0.921970
+bands_zero_20pct,pavia_u,nsu,T/sum(T),2,0,0.074301,16.684149,1.836793,0.913984
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),2,1,0.146085,23.399349,1.680271,0.833559
+bands_zero_20pct,pavia_u,nsu,T/sum(T),2,1,0.140268,17.137699,1.656902,0.810091
+bands_zero_20pct,pavia_u,nsu,softmax(zT-zF),2,2,0.132288,20.290449,1.708862,0.849508
+bands_zero_20pct,pavia_u,nsu,T/sum(T),2,2,0.132005,13.892700,1.668149,0.821637
+bands_zero_20pct,pavia_u,softmax,softmax p,0,0,0.623522,7.070110,0.716518,0.345810
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,0,0,0.623251,6.336103,0.694017,0.316513
+bands_zero_20pct,pavia_u,softmax,softmax p,0,1,0.475424,10.587607,1.044965,0.521884
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,0,1,0.475424,9.491064,1.036392,0.516382
+bands_zero_20pct,pavia_u,softmax,softmax p,0,2,0.531655,8.272644,0.910823,0.450567
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,0,2,0.531486,7.074455,0.837416,0.407013
+bands_zero_20pct,pavia_u,softmax,softmax p,0,3,0.479963,7.571467,0.989167,0.493387
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,0,3,0.480743,6.615456,0.958208,0.478504
+bands_zero_20pct,pavia_u,softmax,softmax p,0,4,0.534298,7.401424,0.886289,0.432081
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,0,4,0.533959,6.166064,0.858082,0.408857
+bands_zero_20pct,pavia_u,softmax,softmax p,1,0,0.183198,12.280273,1.506658,0.728247
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,1,0,0.184200,9.627374,1.390317,0.651690
+bands_zero_20pct,pavia_u,softmax,softmax p,1,1,0.250313,11.370258,1.411568,0.687388
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,1,1,0.250206,9.533548,1.359495,0.652479
+bands_zero_20pct,pavia_u,softmax,softmax p,1,2,0.455239,7.968409,0.947381,0.440568
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,1,2,0.456635,6.954159,0.869509,0.358296
+bands_zero_20pct,pavia_u,softmax,softmax p,2,0,0.093808,19.981186,1.765942,0.871299
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,2,0,0.093985,16.874190,1.706577,0.831990
+bands_zero_20pct,pavia_u,softmax,softmax p,2,1,0.168605,9.057093,1.421746,0.657484
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,2,1,0.166797,7.659709,1.262728,0.508339
+bands_zero_20pct,pavia_u,softmax,softmax p,2,2,0.128529,11.614968,1.555743,0.735796
+bands_zero_20pct,pavia_u,softmax,MC dropout mean p,2,2,0.129061,9.173833,1.365974,0.618221
+bands_zero_20pct,salinas,evidential,alpha/S,0,0,0.243667,3.494536,1.143911,0.461223
+bands_zero_20pct,salinas,evidential,alpha/S,0,1,0.056992,4.719117,1.690012,0.840863
+bands_zero_20pct,salinas,evidential,alpha/S,0,2,0.079602,3.693063,1.240659,0.532130
+bands_zero_20pct,salinas,evidential,alpha/S,1,0,0.195782,3.147411,1.035900,0.335061
+bands_zero_20pct,salinas,evidential,alpha/S,1,1,0.033508,3.596056,1.336880,0.603756
+bands_zero_20pct,salinas,evidential,alpha/S,1,2,0.297861,2.582239,0.952579,0.329731
+bands_zero_20pct,salinas,evidential,alpha/S,2,0,0.132694,3.418041,1.117638,0.373031
+bands_zero_20pct,salinas,evidential,alpha/S,2,1,0.261160,3.731533,1.068385,0.307025
+bands_zero_20pct,salinas,evidential,alpha/S,2,2,0.315476,2.995296,0.991558,0.291072
+bands_zero_20pct,salinas,hybrid_evidential,alpha/S,0,0,0.056992,7.548800,1.875849,0.937962
+bands_zero_20pct,salinas,hybrid_evidential,alpha/S,1,0,0.113777,6.030699,1.661641,0.801348
+bands_zero_20pct,salinas,hybrid_evidential,alpha/S,2,0,0.180549,5.855726,1.539746,0.739360
+bands_zero_20pct,salinas,hybrid_softmax,softmax p,0,0,0.056992,26.056267,1.886016,0.943008
+bands_zero_20pct,salinas,hybrid_softmax,softmax p,1,0,0.245535,17.774353,1.452063,0.716336
+bands_zero_20pct,salinas,hybrid_softmax,softmax p,2,0,0.180697,22.638167,1.638605,0.819302
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),0,0,0.041587,17.979695,1.755346,0.859532
+bands_zero_20pct,salinas,nsu,T/sum(T),0,0,0.049378,9.350736,1.563666,0.726536
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),0,1,0.080949,18.765280,1.733107,0.852989
+bands_zero_20pct,salinas,nsu,T/sum(T),0,1,0.112667,10.081712,1.577223,0.720005
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),0,2,0.141778,19.105219,1.692805,0.844008
+bands_zero_20pct,salinas,nsu,T/sum(T),0,2,0.140313,11.316628,1.656917,0.821824
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),1,0,0.101660,11.701349,1.591277,0.757042
+bands_zero_20pct,salinas,nsu,T/sum(T),1,0,0.102199,5.719844,1.355021,0.596886
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),1,1,0.093553,21.441225,1.750587,0.859586
+bands_zero_20pct,salinas,nsu,T/sum(T),1,1,0.094301,10.587715,1.629422,0.760390
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),1,2,0.095557,20.836665,1.757854,0.868525
+bands_zero_20pct,salinas,nsu,T/sum(T),1,2,0.095557,10.180916,1.693734,0.826088
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),2,0,0.085852,21.489128,1.806230,0.893882
+bands_zero_20pct,salinas,nsu,T/sum(T),2,0,0.072779,14.143236,1.792940,0.876035
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),2,1,0.180697,21.975142,1.632335,0.816518
+bands_zero_20pct,salinas,nsu,T/sum(T),2,1,0.180697,19.363587,1.620814,0.811239
+bands_zero_20pct,salinas,nsu,softmax(zT-zF),2,2,0.110241,23.054806,1.600584,0.754377
+bands_zero_20pct,salinas,nsu,T/sum(T),2,2,0.107412,14.851281,1.524869,0.688983
+bands_zero_20pct,salinas,softmax,softmax p,0,0,0.025948,14.561171,1.874932,0.945961
+bands_zero_20pct,salinas,softmax,MC dropout mean p,0,0,0.029492,10.302902,1.673063,0.841074
+bands_zero_20pct,salinas,softmax,softmax p,0,1,0.242056,14.523392,1.392669,0.656431
+bands_zero_20pct,salinas,softmax,MC dropout mean p,0,1,0.234031,10.981042,1.259691,0.505099
+bands_zero_20pct,salinas,softmax,softmax p,0,2,0.271577,10.522306,1.332486,0.622982
+bands_zero_20pct,salinas,softmax,MC dropout mean p,0,2,0.266305,8.232049,1.177132,0.481781
+bands_zero_20pct,salinas,softmax,softmax p,0,3,0.068356,12.894842,1.475655,0.639319
+bands_zero_20pct,salinas,softmax,MC dropout mean p,0,3,0.072602,9.929290,1.274964,0.478597
+bands_zero_20pct,salinas,softmax,softmax p,0,4,0.288329,13.108471,1.361847,0.670010
+bands_zero_20pct,salinas,softmax,MC dropout mean p,0,4,0.288271,10.478553,1.249100,0.588846
+bands_zero_20pct,salinas,softmax,softmax p,1,0,0.317307,9.923222,1.284647,0.622909
+bands_zero_20pct,salinas,softmax,MC dropout mean p,1,0,0.317038,8.293526,1.215529,0.562651
+bands_zero_20pct,salinas,softmax,softmax p,1,1,0.101810,9.759469,1.619220,0.769207
+bands_zero_20pct,salinas,softmax,MC dropout mean p,1,1,0.098130,8.138333,1.525510,0.681133
+bands_zero_20pct,salinas,softmax,softmax p,1,2,0.325236,10.341451,1.289386,0.637131
+bands_zero_20pct,salinas,softmax,MC dropout mean p,1,2,0.325295,8.354277,1.219197,0.589302
+bands_zero_20pct,salinas,softmax,softmax p,2,0,0.105655,17.193929,1.704964,0.837351
+bands_zero_20pct,salinas,softmax,MC dropout mean p,2,0,0.103660,13.093510,1.460261,0.664266
+bands_zero_20pct,salinas,softmax,softmax p,2,1,0.106399,21.219340,1.659108,0.799472
+bands_zero_20pct,salinas,softmax,MC dropout mean p,2,1,0.107084,16.758691,1.503313,0.685027
+bands_zero_20pct,salinas,softmax,softmax p,2,2,0.176409,17.134071,1.453716,0.676843
+bands_zero_20pct,salinas,softmax,MC dropout mean p,2,2,0.179089,13.649106,1.228428,0.498216
+none,pavia_u,ensemble5,mean p,0,0-4,0.926629,0.771504,0.130292,0.051674
+none,salinas,ensemble5,mean p,0,0-4,0.957885,0.196734,0.069328,0.018514
+noise_0.05,pavia_u,ensemble5,mean p,0,0-4,0.926087,0.773914,0.131503,0.052183
+noise_0.05,salinas,ensemble5,mean p,0,0-4,0.958325,0.196181,0.069373,0.018925
+noise_0.1,pavia_u,ensemble5,mean p,0,0-4,0.924562,0.779059,0.133801,0.051765
+noise_0.1,salinas,ensemble5,mean p,0,0-4,0.956245,0.200198,0.072970,0.020961
+noise_0.2,pavia_u,ensemble5,mean p,0,0-4,0.918431,0.798559,0.142942,0.051962
+noise_0.2,salinas,ensemble5,mean p,0,0-4,0.946756,0.223774,0.088071,0.029834
+bands_zero_10pct,pavia_u,ensemble5,mean p,0,0-4,0.319400,6.153426,1.109127,0.466202
+bands_zero_10pct,salinas,ensemble5,mean p,0,0-4,0.145058,10.905102,1.400791,0.657794
+bands_zero_20pct,pavia_u,ensemble5,mean p,0,0-4,0.485180,6.016889,0.723604,0.331287
+bands_zero_20pct,salinas,ensemble5,mean p,0,0-4,0.269673,7.670676,1.029942,0.297881

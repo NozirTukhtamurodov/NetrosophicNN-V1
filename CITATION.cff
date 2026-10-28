@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Code for: How Many Degrees of Freedom Does a Neutrosophic Uncertainty Representation Have? Theory, and Tests on Hyperspectral Convolutional Networks and Preference Data"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+type: software
+authors:
+  - family-names: Tukhtamurodov
+    given-names: Nozir
+    affiliation: "Samarkand State University named after Sharof Rashidov"
+  - family-names: Muhamediyeva
+    given-names: Dilnoz T.
+    affiliation: "\"Tashkent Institute of Irrigation and Agricultural Mechanization Engineers\" National Research University"
+keywords:
+  - neutrosophic sets
+  - uncertainty quantification
+  - hyperspectral image classification
+  - evidential deep learning
+  - preference data
+preferred-citation:
+  type: article
+  title: "How Many Degrees of Freedom Does a Neutrosophic Uncertainty Representation Have? Theory, and Tests on Hyperspectral Convolutional Networks and Preference Data"
+  authors:
+    - family-names: Tukhtamurodov
+      given-names: Nozir
+    - family-names: Muhamediyeva
+      given-names: Dilnoz T.

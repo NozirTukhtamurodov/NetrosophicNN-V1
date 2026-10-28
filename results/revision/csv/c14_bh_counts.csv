@@ -1,0 +1,3 @@
+family,n,n_BH_reject,n_BH_reject_and_delta_gt_0.03,n_original_rule_pass,n_p_equal_0_at_resolution_1_over_B
+primary: 162 CNN per-run steps,162,131,27,27,112
+all 196 per-run steps,196,152,28,28,126

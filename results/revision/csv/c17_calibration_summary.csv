@@ -1,0 +1,17 @@
+scene,model,output,n_runs,accuracy_argmax,nll,brier,ece15
+pavia_u,evidential,alpha/S,9,0.8685 ± 0.0456,0.6286 ± 0.1453,0.2335 ± 0.0685,0.0962 ± 0.0370
+pavia_u,hybrid_evidential,alpha/S,3,0.7357 ± 0.0765,1.0821 ± 0.2400,0.3790 ± 0.0962,0.1089 ± 0.0411
+pavia_u,hybrid_softmax,softmax p,3,0.8447 ± 0.0409,2.8063 ± 1.2110,0.2982 ± 0.0836,0.1453 ± 0.0423
+pavia_u,nsu,softmax(zT-zF),9,0.8729 ± 0.0427,2.2397 ± 1.0694,0.2445 ± 0.0880,0.1197 ± 0.0446
+pavia_u,nsu,T/sum(T),9,0.8729 ± 0.0425,0.7922 ± 0.2136,0.2287 ± 0.0880,0.0997 ± 0.0476
+pavia_u,softmax,softmax p,9,0.8704 ± 0.0438,1.0174 ± 0.3012,0.2389 ± 0.0851,0.1084 ± 0.0442
+pavia_u,softmax,MC dropout mean p,9,0.8702 ± 0.0438,0.9431 ± 0.2868,0.2362 ± 0.0859,0.1036 ± 0.0452
+salinas,evidential,alpha/S,9,0.8710 ± 0.0530,0.6967 ± 0.1340,0.2299 ± 0.0507,0.1965 ± 0.0429
+salinas,hybrid_evidential,alpha/S,3,0.5960 ± 0.1552,1.4200 ± 0.3250,0.4747 ± 0.1118,0.0575 ± 0.0329
+salinas,hybrid_softmax,softmax p,3,0.8644 ± 0.0514,1.8849 ± 1.0815,0.2564 ± 0.0982,0.1239 ± 0.0479
+salinas,nsu,softmax(zT-zF),9,0.9035 ± 0.0596,1.1910 ± 0.6896,0.1765 ± 0.1060,0.0846 ± 0.0504
+salinas,nsu,T/sum(T),9,0.9035 ± 0.0597,0.4534 ± 0.2779,0.1543 ± 0.0900,0.0585 ± 0.0394
+salinas,softmax,softmax p,9,0.9096 ± 0.0542,0.5812 ± 0.3987,0.1560 ± 0.0934,0.0654 ± 0.0431
+salinas,softmax,MC dropout mean p,9,0.9097 ± 0.0542,0.5352 ± 0.3717,0.1532 ± 0.0912,0.0595 ± 0.0407
+pavia_u,ensemble5,mean p,1,0.9266 (single run),0.7731 (single run),0.1297 (single run),0.0513 (single run)
+salinas,ensemble5,mean p,1,0.9593 (single run),0.1892 (single run),0.0673 (single run),0.0188 (single run)
